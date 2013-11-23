@@ -1,5 +1,38 @@
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
 body {
   background-color: red;
   background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, red), color-stop(100%, orange));
   background-image: -webkit-linear-gradient(bottom, red, orange);
   background-image: linear-gradient(to top,red, orange); }
+
+section {
+  *zoom: 1;
+  max-width: 68em;
+  margin-left: auto;
+  margin-right: auto; }
+  section:before, section:after {
+    content: " ";
+    display: table; }
+  section:after {
+    clear: both; }
+  section .sidebar {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 23.23176%;
+    background: pink; }
+    section .sidebar:last-child {
+      margin-right: 0; }
+  section .mainarea {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 74.41059%;
+    margin-right: 0;
+    background: green; }
+    section .mainarea:last-child {
+      margin-right: 0; }

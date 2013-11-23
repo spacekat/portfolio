@@ -1,4 +1,17 @@
 @import "bourbon/bourbon";
+@import "neat/neat";
 body {
   @include linear-gradient(to top, red, orange);
+}
+section {
+    @include outer-container;
+    .sidebar {
+       @include span-columns(3);
+       background: pink;
+    }
+    .mainarea {
+        @include span-columns(9);
+        @include omega();
+        background: green;
+    }
 }
