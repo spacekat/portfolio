@@ -1,5 +1,9 @@
 @import "bourbon/bourbon";
 @import "neat/neat";
+// Neat vars
+$max-width: em(1200);
+
+
 // Colors
 $flamingo: hsl(345.1,97.6%,49.4%);
 $mustard: #C1953C;
@@ -59,8 +63,17 @@ header {
 }
 section {
     @include outer-container;
-    @include clearfix;
     padding: 20px 0;
+    article.post {
+        @include span-columns(12);
+        background-color: #fff;
+        padding: 10px;
+        text-align: left;
+        img {
+            padding: 10px;
+            clear: both;
+        }
+    }
 }
 footer {
     background: $darkopal;
@@ -179,3 +192,4 @@ footer, .page-wrap:after {
         letter-spacing: .1em;
     }
 }
+

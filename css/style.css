@@ -52,21 +52,28 @@ header {
 
 section {
   *zoom: 1;
-  max-width: 68em;
+  max-width: 75em;
   margin-left: auto;
   margin-right: auto;
-  *zoom: 1;
   padding: 20px 0; }
   section:before, section:after {
     content: " ";
     display: table; }
   section:after {
     clear: both; }
-  section:before, section:after {
-    content: " ";
-    display: table; }
-  section:after {
-    clear: both; }
+  section article.post {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 100%;
+    background-color: #fff;
+    padding: 10px;
+    text-align: left; }
+    section article.post:last-child {
+      margin-right: 0; }
+    section article.post img {
+      padding: 10px;
+      clear: both; }
 
 footer {
   background: #0e0c0a;
