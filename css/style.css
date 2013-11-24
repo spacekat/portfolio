@@ -3,17 +3,65 @@
   -moz-box-sizing: border-box;
   box-sizing: border-box; }
 
+/* Global Reset */
+* {
+  margin: 0;
+  padding: 0; }
+
+html, body {
+  height: 100%; }
+
+body {
+  background-color: #f3e7da;
+  font: 16px Helvetica, Arial, sans-serif;
+  font-size: small;
+  text-align: center; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: 100%; }
+
+/* End Global Reset */
+h1 {
+  margin-bottom: 1em; }
+
+p {
+  margin: 1em 0; }
+
+a, a:visited {
+  color: #f90340;
+  text-decoration: none;
+  -webkit-transition: color 0.2s ease;
+  -moz-transition: color 0.2s ease;
+  transition: color 0.2s ease; }
+  a:hover, a:visited:hover {
+    color: #fecad7;
+    text-decoration: none; }
+
 header {
-  background: #0e0c0a;
-  padding: 30px 0; }
-  header a {
-    color: #f3e7da; }
+  *zoom: 1;
+  background: #0e0c0a; }
+  header:before, header:after {
+    content: " ";
+    display: table; }
+  header:after {
+    clear: both; }
+  header .home {
+    font-size: 20px;
+    padding: 60px;
+    display: block; }
 
 section {
   *zoom: 1;
   max-width: 68em;
   margin-left: auto;
-  margin-right: auto; }
+  margin-right: auto;
+  *zoom: 1;
+  padding: 20px 0; }
+  section:before, section:after {
+    content: " ";
+    display: table; }
+  section:after {
+    clear: both; }
   section:before, section:after {
     content: " ";
     display: table; }
@@ -23,7 +71,26 @@ section {
 footer {
   background: #0e0c0a;
   padding: 30px 0;
-  color: #f3e7da; }
+  color: #f3e7da;
+  *zoom: 1; }
+  footer:before, footer:after {
+    content: " ";
+    display: table; }
+  footer:after {
+    clear: both; }
+
+.page-wrap {
+  min-height: 100%;
+  /* equal to footer height */
+  margin-bottom: -82px; }
+
+.page-wrap:after {
+  content: "";
+  display: block; }
+
+footer, .page-wrap:after {
+  /* .push must be the same height as footer */
+  height: 82px; }
 
 .tile {
   position: relative;
@@ -31,7 +98,8 @@ footer {
   float: left;
   display: block;
   margin-right: 2.35765%;
-  width: 31.76157%; }
+  width: 31.76157%;
+  height: 300px; }
   .tile:last-child {
     margin-right: 0; }
   .tile .tile-hover {
@@ -58,3 +126,6 @@ footer {
     .tile .thumbnail img {
       width: 300px;
       height: 300px; }
+
+.links a {
+  padding: 10px; }

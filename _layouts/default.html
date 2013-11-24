@@ -13,23 +13,34 @@
         <link rel="stylesheet" href="/css/main.css">
         <link rel="stylesheet" href="/css/style.css">
 
+        <!-- Temporary Icomoon webfont icons -->
+        <link rel="stylesheet" href="http://i.icomoon.io/public/temp/bad406fa22/UntitledProject1/style.css">
+
     </head>
     <body>
 
-        <header>
-            <a href="/"><span class="logo">logo</span></a>
-            <a><span class="icon-grid">grid</span></a>
-            <a><span class="icon-list">list</span></a>
-            <a href="https://github.com/yourusername">github.com/spacekat</a>
-            <a href="https://twitter.com/yourusername">twitter.com/jessicaspacekat</a>
-            <a href="https://codepen.com/jessicaspacekat">codepen</a>
-            <a href="/about">about</a>
-        </header>
-        <section>
-            {{ content }}
-        </section>
+        <div class="page-wrap">
+            <header>
+                <a href="/" class="home">
+                    <span class="icon-heart"></span>
+                </a>
+            </header>
+            <section>
+                {{ content }}
+            </section>
+        </div>
         <footer>
-            foot
+            <div class="links">
+                <a href="https://github.com/yourusername">
+                    <span class="icon-github"></span>
+                </a>
+                <a href="https://twitter.com/yourusername">
+                    <span class="icon-twitter"></span>
+                </a>
+                <a href="http://codepen.io/spacekat">codepen</a>
+                <a href="http://dribbble.com/jessicaspacekat">dribbble</a>
+                <a href="/about">about</a>
+            </div>
         </footer>
 
     </body>
