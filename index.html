@@ -6,16 +6,23 @@ title: some stuff
 {% for post in site.posts %}
     <div class="tile">
         <div class="tile-hover">
-            <a href="{{ post.url }}">
-                <span class="icon-eye"></span>
-            </a>
+            <div class="tile-top">
+                <a href="{{ post.url }}">
+                    <span class="icon-eye"></span>
+                </a>
+            </div>
             <hr>
-            <h2>
-                {{ post.title }}
-            </h2>
-            <h3>
-                {{ post.date | date_to_string }}
-            </h3>
+            <div class="tile-bottom">
+                <h2>
+                    {{ post.title }}
+                </h2>
+                <h3>
+                    {{ post.creation-date | date: "%B %Y" }}
+                </h3>
+                <p>
+                    {{ post.short-description }}
+                </p>
+            </div>
         </div>
         <div class="thumbnail">
             <img src="{{ post.thumbnail }}">

@@ -39,7 +39,7 @@ a, a:visited {
 
 header {
   *zoom: 1;
-  background: #0e0c0a; }
+  background-color: #fff; }
   header:before, header:after {
     content: " ";
     display: table; }
@@ -47,7 +47,7 @@ header {
     clear: both; }
   header .home {
     font-size: 20px;
-    padding: 60px;
+    padding: 20px;
     display: block; }
 
 section {
@@ -108,14 +108,55 @@ footer, .page-wrap:after {
     left: 0;
     width: 300px;
     height: 300px;
-    background-color: rgba(0, 0, 255, 0.3);
+    background-color: rgba(14, 12, 10, 0.6);
     z-index: 5;
     opacity: 0;
-    -webkit-transition: opacity 0.3s ease;
-    -moz-transition: opacity 0.3s ease;
-    transition: opacity 0.3s ease; }
+    -webkit-transition: opacity 1s ease;
+    -moz-transition: opacity 1s ease;
+    transition: opacity 1s ease; }
     .tile .tile-hover:hover {
-      opactiy: 1; }
+      opactiy: 1;
+      -webkit-transition: opacity 0.4s ease;
+      -moz-transition: opacity 0.4s ease;
+      transition: opacity 0.4s ease; }
+    .tile .tile-hover .tile-top {
+      height: 150px; }
+      .tile .tile-hover .tile-top a {
+        padding: 50px 20px 20px;
+        font-size: 40px;
+        display: block;
+        color: #c1953c; }
+        .tile .tile-hover .tile-top a:hover {
+          color: #fff; }
+    .tile .tile-hover hr {
+      height: 1px;
+      border-top: none;
+      border-bottom: 1px solid rgba(243, 231, 218, 0.3);
+      margin: 0 40px; }
+    .tile .tile-hover .tile-bottom {
+      margin: 20px; }
+      .tile .tile-hover .tile-bottom h2 {
+        color: #fff;
+        font-family: 'Share Tech Mono', sans-serif;
+        text-transform: uppercase;
+        font-size: 20px;
+        letter-spacing: .1em;
+        text-shadow: 1px 1px 2px black;
+        margin-bottom: 5px; }
+      .tile .tile-hover .tile-bottom h3 {
+        color: #fff;
+        text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
+        font-family: 'Quicksand', sans-serif;
+        font-weight: 400;
+        text-transform: uppercase;
+        font-size: 14px;
+        letter-spacing: .1em; }
+      .tile .tile-hover .tile-bottom p {
+        font-family: 'Lora', Times New Roman, serif;
+        font-size: 14px;
+        line-height: 1.6em;
+        color: #fff;
+        text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4); }
   .tile:hover .tile-hover, .tile:active .tile-hover {
     opacity: 1; }
   .tile .thumbnail {
@@ -128,4 +169,8 @@ footer, .page-wrap:after {
       height: 300px; }
 
 .links a {
-  padding: 10px; }
+  padding: 10px;
+  font-family: 'Share Tech Mono', sans-serif;
+  text-transform: uppercase;
+  font-size: 16px;
+  letter-spacing: .1em; }

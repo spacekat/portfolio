@@ -1,11 +1,15 @@
 @import "bourbon/bourbon";
 @import "neat/neat";
 // Colors
-$flamingo: #F90340;
+$flamingo: hsl(345.1,97.6%,49.4%);
 $mustard: #C1953C;
-$darkopal: #0E0C0A;
+$darkopal: hsl(30,16.7%,4.7%);
 $snow: #F3E7DA;
 $sage: #79A47E;
+$seablue: #daf3e7;
+$pink: #e7daf3;
+$darkopal-transparency: hsla(30,16.7%,4.7%,.6);
+$snow-transparency: hsla(31.2,51%,90.4%,.3);
 // end of Colors
 
 /* Global Reset */
@@ -46,10 +50,10 @@ a, a:visited {
 // Layout
 header {
     @include clearfix;
-    background: $darkopal;
+    background-color: #fff;
     .home {
         font-size: 20px;
-        padding: 60px;
+        padding: 20px;
         display: block;
     }
 }
@@ -91,12 +95,61 @@ footer, .page-wrap:after {
         left: 0;
         width: 300px;
         height: 300px;
-        background-color: hsla(240,100%,50%, 0.3);
+        background-color: $darkopal-transparency;
         z-index: 5;
         opacity: 0;
-        @include transition (opacity 0.3s ease);
+        @include transition (opacity 1s ease);
         &:hover {
             opactiy: 1;
+            @include transition (opacity .4s ease);
+        }
+        
+        .tile-top {
+            height: 150px;
+            a {
+                padding: 50px 20px 20px;
+                font-size: 40px;
+                display: block;
+                color: $mustard;
+                &:hover {
+                    color: #fff;
+                }
+            }
+        }
+        hr {
+            height: 1px;
+            border-top: none;
+            border-bottom: 1px solid $snow-transparency;
+            margin: 0 40px;
+        }
+        .tile-bottom {
+            margin: 20px;
+            //text-align: left;
+            h2 {
+                color: #fff;
+                font-family: 'Share Tech Mono', sans-serif;
+                text-transform: uppercase;
+                font-size: 20px;
+                letter-spacing: .1em;
+                text-shadow: 1px 1px 2px black;
+                margin-bottom: 5px;
+            }
+            h3 {
+                color: #fff;
+                text-shadow: 1px 1px 1px hsla(0, 0%, 0%, 0.4);
+                font-family: 'Quicksand', sans-serif;
+                font-weight: 400;
+                text-transform: uppercase;
+                font-size: 14px;
+                letter-spacing: .1em;
+            }
+            p {
+                font-family: 'Lora', Times New Roman, serif;
+                font-size: 14px;
+                line-height: 1.6em;
+                color: #fff;
+                text-shadow: 1px 1px 1px hsla(0, 0%, 0%, 0.4);
+            }
         }
     }
     // Show tile-hover on mouseover
@@ -120,5 +173,9 @@ footer, .page-wrap:after {
 .links {
     a {
         padding: 10px;
+        font-family: 'Share Tech Mono', sans-serif;
+        text-transform: uppercase;
+        font-size: 16px;
+        letter-spacing: .1em;
     }
 }
