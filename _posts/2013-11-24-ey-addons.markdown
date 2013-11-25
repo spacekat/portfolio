@@ -1,0 +1,19 @@
+---
+layout: post
+title:  "Add-ons"
+date:   2013-11-22 23:15:42
+categories: UI
+thumbnail: images/add-ons/thumb-add-ons.jpg
+creation-date: 2012-10-22 23:15:42
+short-description: The user interface to add third party software to customer's apps.
+---
+<h1>Add-ons <small>Engine Yard</small></h1>
+
+User interface for Engine Yard's customers to add and integrate with third party software. 
+
+![Add-ons step 1](/images/add-ons/addons-1.jpg)
+![Add-ons step 2](/images/add-ons/addons-2.jpg)
+![Add-ons step 3](/images/add-ons/addons-3.jpg)
+![Add-ons step 4](/images/add-ons/addons-4.jpg)
+![Add-ons step 5](/images/add-ons/addons-5.jpg)
+![Add-ons step 6](/images/add-ons/addons-6.jpg)
