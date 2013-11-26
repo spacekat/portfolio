@@ -1,9 +1,13 @@
 Simple Jekyll site for sharing stuff I do.
 
 ## Generate the site with Jekyll 
+`jekyll server -w` will watch and compile the site.
 
-http://jekyllrb.com/docs/usage/
+Jekyll docs: http://jekyllrb.com/docs/usage/
 
-## Using Bourbon mixins in `css/scss/bourbon`
+Using Bourbon mixins in `css/scss/bourbon`
 
-## Using Neat http://neat.bourbon.io/ mixins in `css/scss/neat`
+Using Neat http://neat.bourbon.io/ mixins in `css/scss/neat`
+
+Compile the sass like: 
+`sass --watch css/scss/style.scss:css/style.css`
