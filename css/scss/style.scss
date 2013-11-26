@@ -3,15 +3,13 @@
 // Neat vars
 $max-width: em(1200);
 
-
 // Colors
-$flamingo: hsl(345.1,97.6%,49.4%);
-$mustard: #C1953C;
+$green: #8fe5c3;
+$teal: #8fdce5;
+$lav: #8fb1e5;
+
+
 $darkopal: hsl(30,16.7%,4.7%);
-$snow: #F3E7DA;
-$sage: #79A47E;
-$seablue: #daf3e7;
-$pink: #e7daf3;
 $darkopal-transparency: hsla(30,16.7%,4.7%,.6);
 $snow-transparency: hsla(31.2,51%,90.4%,.3);
 // end of Colors
@@ -25,7 +23,7 @@ $snow-transparency: hsla(31.2,51%,90.4%,.3);
 html, body { height: 100%; }
 
 body {
-  background-color: $snow;
+  background-color: hsl(0, 0%, 95%);
   font: 16px Helvetica, Arial, sans-serif;
   font-size: small;
   text-align: center;
@@ -37,16 +35,61 @@ h1, h2, h3, h4, h5, h6 {
 
 
 // Typography
-h1 { margin-bottom: 1em; }
+h1 {
+    color: #fff;
+    font-family: 'Share Tech Mono', sans-serif;
+    text-transform: uppercase;
+    font-size: 30px;
+    letter-spacing: .1em;
+    text-shadow: 1px 1px 2px black;
+    margin-bottom: 5px;
+}
+h2 {
+    color: #fff;
+    font-family: 'Share Tech Mono', sans-serif;
+    text-transform: uppercase;
+    font-size: 20px;
+    letter-spacing: .1em;
+    text-shadow: 1px 1px 2px black;
+    margin-bottom: 5px;
+}
+h3 {
+    color: #fff;
+    text-shadow: 1px 1px 1px hsla(0, 0%, 0%, 0.4);
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: .1em;
+}
+h4 {
+    color: #fff;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 400;
+    margin-bottom: 5px;
+    font-size: 18px;
+}
+p {
+    font-family: 'Lora', Times New Roman, serif;
+    font-size: 16px;
+    line-height: 1.6em;
+    color: tint($darkopal,30%);
+}
 p { margin: 1em 0; }
 
 a, a:visited { 
-    color: $flamingo;
+    color: $lav;
     text-decoration: none;
     @include transition (color 0.2s ease);
+    .subheading & {
+        color: tint($green,20%);
+    }
     &:hover { 
-        color: lighten($flamingo,40%);
+        color: shade($lav,20%);
         text-decoration: none;
+        .subheading & {
+            color: $green;
+        }
     }
 }
 // End typography
@@ -54,31 +97,55 @@ a, a:visited {
 // Layout
 header {
     @include clearfix;
-    background-color: #fff;
+    background-color: $darkopal;
     .home {
         font-size: 20px;
         padding: 20px;
         display: block;
     }
 }
+.heading {
+    padding: 40px 0 30px;
+    @include linear-gradient(to right, $green, $teal, $lav );
+    h3 {
+        padding-bottom: 4px;
+        font-size: 20px;
+        text-shadow: none;
+    }
+    h1 {
+        padding: 10px 0 0;
+        font-size: 45px;
+    }
+}
+.subheading {
+    padding: 40px 0 40px;
+    margin-bottom: 20px;
+    background-color: shade($lav,20%);
+    color: #fff;
+}
+
 section {
-    @include outer-container;
-    padding: 20px 0;
-    article.post {
-        @include span-columns(12);
-        background-color: #fff;
-        padding: 10px;
-        text-align: left;
+    article {
+        @include outer-container;
+    }
+}
+.post {
+    @include span-columns(12);
+    text-align: center;
+    p {
+        padding: 30px 0;
+        margin: 0 auto;
+        font-size: 18px;
         img {
-            padding: 10px;
+            padding: 16px;
             clear: both;
+            background: #fff;
         }
     }
 }
 footer {
     background: $darkopal;
     padding: 30px 0;
-    color: $snow;
     @include clearfix;
 }
 // Sticky footer
@@ -97,11 +164,16 @@ footer, .page-wrap:after {
 }
 // End Layout
 
+.tiles {
+    @include outer-container;
+    margin-top: 30px;
+}
 .tile {
     position: relative;
     float: left;
     @include span-columns(4);
     height: 300px;
+    margin-bottom: 30px;
     .tile-hover {
         position: absolute;
         top: 0;
@@ -123,7 +195,7 @@ footer, .page-wrap:after {
                 padding: 50px 20px 20px;
                 font-size: 40px;
                 display: block;
-                color: $mustard;
+                color: $green;
                 &:hover {
                     color: #fff;
                 }
@@ -137,7 +209,6 @@ footer, .page-wrap:after {
         }
         .tile-bottom {
             margin: 20px;
-            //text-align: left;
             h2 {
                 color: #fff;
                 font-family: 'Share Tech Mono', sans-serif;

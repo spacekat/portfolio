@@ -12,7 +12,7 @@ html, body {
   height: 100%; }
 
 body {
-  background-color: #f3e7da;
+  background-color: #f2f2f2;
   font: 16px Helvetica, Arial, sans-serif;
   font-size: small;
   text-align: center; }
@@ -22,24 +22,65 @@ h1, h2, h3, h4, h5, h6 {
 
 /* End Global Reset */
 h1 {
-  margin-bottom: 1em; }
+  color: #fff;
+  font-family: 'Share Tech Mono', sans-serif;
+  text-transform: uppercase;
+  font-size: 30px;
+  letter-spacing: .1em;
+  text-shadow: 1px 1px 2px black;
+  margin-bottom: 5px; }
+
+h2 {
+  color: #fff;
+  font-family: 'Share Tech Mono', sans-serif;
+  text-transform: uppercase;
+  font-size: 20px;
+  letter-spacing: .1em;
+  text-shadow: 1px 1px 2px black;
+  margin-bottom: 5px; }
+
+h3 {
+  color: #fff;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 400;
+  text-transform: uppercase;
+  font-size: 14px;
+  letter-spacing: .1em; }
+
+h4 {
+  color: #fff;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 400;
+  margin-bottom: 5px;
+  font-size: 18px; }
+
+p {
+  font-family: 'Lora', Times New Roman, serif;
+  font-size: 16px;
+  line-height: 1.6em;
+  color: #565453; }
 
 p {
   margin: 1em 0; }
 
 a, a:visited {
-  color: #f90340;
+  color: #8fb1e5;
   text-decoration: none;
   -webkit-transition: color 0.2s ease;
   -moz-transition: color 0.2s ease;
   transition: color 0.2s ease; }
+  .subheading a, .subheading a:visited {
+    color: #a5eacf; }
   a:hover, a:visited:hover {
-    color: #fecad7;
+    color: #728db7;
     text-decoration: none; }
+    .subheading a:hover, .subheading a:visited:hover {
+      color: #8fe5c3; }
 
 header {
   *zoom: 1;
-  background-color: #fff; }
+  background-color: #0e0c0a; }
   header:before, header:after {
     content: " ";
     display: table; }
@@ -50,35 +91,57 @@ header {
     padding: 20px;
     display: block; }
 
-section {
+.heading {
+  padding: 40px 0 30px;
+  background-color: #8fe5c3;
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #8fe5c3), color-stop(50%, #8fdce5), color-stop(100%, #8fb1e5));
+  background-image: -webkit-linear-gradient(left, #8fe5c3, #8fdce5, #8fb1e5);
+  background-image: linear-gradient(to right,#8fe5c3, #8fdce5, #8fb1e5); }
+  .heading h3 {
+    padding-bottom: 4px;
+    font-size: 20px;
+    text-shadow: none; }
+  .heading h1 {
+    padding: 10px 0 0;
+    font-size: 45px; }
+
+.subheading {
+  padding: 40px 0 40px;
+  margin-bottom: 20px;
+  background-color: #728db7;
+  color: #fff; }
+
+section article {
   *zoom: 1;
   max-width: 75em;
   margin-left: auto;
-  margin-right: auto;
-  padding: 20px 0; }
-  section:before, section:after {
+  margin-right: auto; }
+  section article:before, section article:after {
     content: " ";
     display: table; }
-  section:after {
+  section article:after {
     clear: both; }
-  section article.post {
-    float: left;
-    display: block;
-    margin-right: 2.35765%;
-    width: 100%;
-    background-color: #fff;
-    padding: 10px;
-    text-align: left; }
-    section article.post:last-child {
-      margin-right: 0; }
-    section article.post img {
-      padding: 10px;
-      clear: both; }
+
+.post {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 100%;
+  text-align: center; }
+  .post:last-child {
+    margin-right: 0; }
+  .post p {
+    padding: 30px 0;
+    margin: 0 auto;
+    font-size: 18px; }
+    .post p img {
+      padding: 16px;
+      clear: both;
+      background: #fff; }
 
 footer {
   background: #0e0c0a;
   padding: 30px 0;
-  color: #f3e7da;
   *zoom: 1; }
   footer:before, footer:after {
     content: " ";
@@ -99,6 +162,18 @@ footer, .page-wrap:after {
   /* .push must be the same height as footer */
   height: 82px; }
 
+.tiles {
+  *zoom: 1;
+  max-width: 75em;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px; }
+  .tiles:before, .tiles:after {
+    content: " ";
+    display: table; }
+  .tiles:after {
+    clear: both; }
+
 .tile {
   position: relative;
   float: left;
@@ -106,7 +181,8 @@ footer, .page-wrap:after {
   display: block;
   margin-right: 2.35765%;
   width: 31.76157%;
-  height: 300px; }
+  height: 300px;
+  margin-bottom: 30px; }
   .tile:last-child {
     margin-right: 0; }
   .tile .tile-hover {
@@ -132,7 +208,7 @@ footer, .page-wrap:after {
         padding: 50px 20px 20px;
         font-size: 40px;
         display: block;
-        color: #c1953c; }
+        color: #8fe5c3; }
         .tile .tile-hover .tile-top a:hover {
           color: #fff; }
     .tile .tile-hover hr {

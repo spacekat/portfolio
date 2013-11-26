@@ -3,29 +3,31 @@ layout: default
 title: some stuff
 ---
 
-{% for post in site.posts %}
-    <div class="tile">
-        <div class="tile-hover">
-            <div class="tile-top">
-                <a href="{{ post.url }}">
-                    <span class="icon-eye"></span>
-                </a>
+<div class="tiles">
+    {% for post in site.posts %}
+        <div class="tile">
+            <div class="tile-hover">
+                <div class="tile-top">
+                    <a href="{{ post.url }}">
+                        <span class="icon-eye">eye</span>
+                    </a>
+                </div>
+                <hr>
+                <div class="tile-bottom">
+                    <h2>
+                        {{ post.title }}
+                    </h2>
+                    <h3>
+                        {{ post.creation-date | date: "%B %Y" }}
+                    </h3>
+                    <p>
+                        {{ post.short-description }}
+                    </p>
+                </div>
             </div>
-            <hr>
-            <div class="tile-bottom">
-                <h2>
-                    {{ post.title }}
-                </h2>
-                <h3>
-                    {{ post.creation-date | date: "%B %Y" }}
-                </h3>
-                <p>
-                    {{ post.short-description }}
-                </p>
+            <div class="thumbnail">
+                <img src="{{ post.thumbnail }}">
             </div>
         </div>
-        <div class="thumbnail">
-            <img src="{{ post.thumbnail }}">
-        </div>
-    </div>
-{% endfor %}
+    {% endfor %}
+</div>
