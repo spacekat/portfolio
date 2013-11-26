@@ -1,14 +1,12 @@
 @import "bourbon/bourbon";
 @import "neat/neat";
 // Neat vars
-$max-width: em(1200);
+$max-width: 77em;
 
 // Colors
 $green: #8fe5c3;
 $teal: #8fdce5;
 $lav: #8fb1e5;
-
-
 $darkopal: hsl(30,16.7%,4.7%);
 $darkopal-transparency: hsla(30,16.7%,4.7%,.6);
 $snow-transparency: hsla(31.2,51%,90.4%,.3);
@@ -45,7 +43,7 @@ h1 {
     margin-bottom: 5px;
 }
 h2 {
-    color: #fff;
+    color: $green;
     font-family: 'Share Tech Mono', sans-serif;
     text-transform: uppercase;
     font-size: 20px;
@@ -54,13 +52,15 @@ h2 {
     margin-bottom: 5px;
 }
 h3 {
-    color: #fff;
-    text-shadow: 1px 1px 1px hsla(0, 0%, 0%, 0.4);
+    color: tint($darkopal,20%);
     font-family: 'Quicksand', sans-serif;
     font-weight: 400;
     text-transform: uppercase;
-    font-size: 14px;
+    font-size: 18px;
     letter-spacing: .1em;
+    .heading & {
+        color: #fff;
+    }
 }
 h4 {
     color: #fff;
@@ -132,6 +132,7 @@ section {
 .post {
     @include span-columns(12);
     text-align: center;
+    padding-bottom: 40px;
     p {
         padding: 30px 0;
         margin: 0 auto;
@@ -171,9 +172,9 @@ footer, .page-wrap:after {
 .tile {
     position: relative;
     float: left;
-    @include span-columns(4);
+    width: 300px;
     height: 300px;
-    margin-bottom: 30px;
+    margin: 0 15px 30px;
     .tile-hover {
         position: absolute;
         top: 0;
