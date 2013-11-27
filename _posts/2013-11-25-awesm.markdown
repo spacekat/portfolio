@@ -16,6 +16,6 @@ Designed the website for San Francisco startup awe.sm, an app that tracks the sp
 
 ![awe.sm pricing](/images/awesm/awesm-pricing.jpg)
 
-## Wireframe from the design process
+### Wireframe from the design process
 
 ![awe.sm wireframe](/images/awesm/awesm-wireframe.jpg)

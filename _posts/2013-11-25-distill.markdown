@@ -1,0 +1,17 @@
+---
+layout: post
+title:  "Distill"
+date:   2013-11-22 23:15:42
+categories: coding
+thumbnail: images/distill/distill-website-thumb.jpg
+creation-date: 2013-7-22 23:15:42
+short-description: Coded the marketing website for Engine Yard's first conference
+---
+
+Coded the marketing website for Engine Yard's Distill conference, 2013.
+
+The design was by my amazing coworker [@valree](https://twitter.com/valree).
+
+[http://distill.engineyard.com/archive#home](http://distill.engineyard.com/archive#home)
+
+![Distill website](/images/distill/distill-website.jpg)

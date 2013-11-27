@@ -188,7 +188,7 @@ footer, .page-wrap:after {
     left: 0;
     width: 300px;
     height: 300px;
-    background-color: rgba(14, 12, 10, 0.6);
+    background-color: rgba(14, 12, 10, 0.8);
     z-index: 5;
     opacity: 0;
     -webkit-transition: opacity 1s ease;
@@ -202,12 +202,19 @@ footer, .page-wrap:after {
     .tile .tile-hover .tile-top {
       height: 150px; }
       .tile .tile-hover .tile-top a {
-        padding: 50px 20px 20px;
+        padding: 20px 20px 20px;
         font-size: 40px;
-        display: block;
-        color: #8fe5c3; }
-        .tile .tile-hover .tile-top a:hover {
-          color: #fff; }
+        display: block; }
+        .tile .tile-hover .tile-top a .eye {
+          fill: #8fe5c3;
+          -webkit-transition: fill 0.7s ease;
+          -moz-transition: fill 0.7s ease;
+          transition: fill 0.7s ease; }
+        .tile .tile-hover .tile-top a:hover .eye {
+          -webkit-transition: fill 0.7s ease;
+          -moz-transition: fill 0.7s ease;
+          transition: fill 0.7s ease;
+          fill: #fff; }
     .tile .tile-hover hr {
       height: 1px;
       border-top: none;
