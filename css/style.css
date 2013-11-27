@@ -202,22 +202,21 @@ footer, .page-wrap:after {
     .tile .tile-hover .tile-top {
       height: 150px; }
       .tile .tile-hover .tile-top a {
-        padding: 20px 20px 20px;
+        padding: 50px 20px 20px;
         font-size: 40px;
         display: block; }
-        .tile .tile-hover .tile-top a .eye {
-          fill: #8fe5c3;
-          -webkit-transition: fill 0.7s ease;
-          -moz-transition: fill 0.7s ease;
-          transition: fill 0.7s ease; }
-        .tile .tile-hover .tile-top a:hover .eye {
-          -webkit-transition: fill 0.7s ease;
-          -moz-transition: fill 0.7s ease;
-          transition: fill 0.7s ease;
-          fill: #fff; }
+        .tile .tile-hover .tile-top a path.eye {
+          fill: #8fe5c3; }
+        .tile .tile-hover .tile-top a:hover path.eye {
+          fill: #fff;
+          -webkit-animation: scale 1s ease-in, slide 2s ease;
+          -moz-animation: scale 1s ease-in, slide 2s ease;
+          animation: scale 1s ease-in, slide 2s ease; }
     .tile .tile-hover hr {
       height: 1px;
       border-top: none;
+      border-left: none;
+      border-right: none;
       border-bottom: 1px solid rgba(243, 231, 218, 0.3);
       margin: 0 40px; }
     .tile .tile-hover .tile-bottom {

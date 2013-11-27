@@ -193,22 +193,26 @@ footer, .page-wrap:after {
         .tile-top {
             height: 150px;
             a {
-                padding: 20px 20px 20px;
+                padding: 50px 20px 20px;
                 font-size: 40px;
                 display: block;
-                .eye {
+                path.eye {
                     fill: $green;
-                    @include transition (fill 0.7s ease);
+                    //@include transition (fill 0.7s ease);
+                    // Animation shorthand works the same as the CSS3 animation shorthand
                 }
-                &:hover .eye {
-                    @include transition (fill 0.7s ease);
+                &:hover path.eye {
+                    //@include transition (fill 0.7s ease);
                     fill: #fff;
+                    @include animation(scale 1.0s ease-in, slide 2.0s ease);
                 }
             }
         }
         hr {
             height: 1px;
             border-top: none;
+            border-left: none;
+            border-right: none;
             border-bottom: 1px solid $snow-transparency;
             margin: 0 40px;
         }
