@@ -48,7 +48,7 @@ Sew the front of the ear to the back, good side in.
 
 Pin the ears to the head. By hand, sew the back of the ears to the head. Fill the ear with stuffing. then hand sew the front of the ear to the head.
 
-![ear](/images/puppycat/puppycat-07-earpin.jpg)
+![ear]({{ site.baseurl}}/images/puppycat/puppycat-07-earpin.jpg)
 
 Sew the face parts on by hand.
 
