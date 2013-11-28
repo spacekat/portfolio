@@ -14,6 +14,16 @@ layout: default
         {{ page.short-description }}
     </h4>
 </div>
+<div class="navigation">
+{% if page.previous.url %} 
+    <a class="nav-prev" href="{{page.previous.url}}" title="Previous
+        Post: {{page.previous.title}}">&larr;</a> 
+{% endif %} 
+{% if page.next.url %} 
+    <a class="nav-next" href="{{page.next.url}}" title="next Post: 
+{{page.next.title}}">&rarr;</a> 
+{% endif %} 
+</div>
 <article>
     <div class="post">
         {{ content }}

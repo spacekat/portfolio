@@ -87,10 +87,12 @@ header {
     display: table; }
   header:after {
     clear: both; }
-  header .home {
-    font-size: 20px;
-    padding: 20px;
-    display: block; }
+  header a.cat svg {
+    width: 50px; }
+  header a.cat path {
+    fill: #72b0b7; }
+  header a.cat:hover path {
+    fill: #8fdce5; }
 
 .heading {
   padding: 40px 0 30px;
@@ -140,6 +142,29 @@ section article {
       padding: 16px;
       clear: both;
       background: #fff; }
+
+.navigation {
+  position: relative; }
+
+.nav, a.nav-prev, a.nav-next {
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  position: absolute;
+  top: 250px;
+  width: 70px;
+  height: 70px;
+  background-color: rgba(224, 220, 220, 0.5);
+  font-size: 20px;
+  line-height: 70px; }
+  .nav:hover, a.nav-prev:hover, a.nav-next:hover {
+    background-color: rgba(143, 229, 195, 0.5); }
+
+a.nav-prev {
+  left: 0; }
+
+a.nav-next {
+  right: 0; }
 
 footer {
   background: #0e0c0a;
@@ -205,19 +230,16 @@ footer, .page-wrap:after {
         padding: 50px 20px 20px;
         font-size: 40px;
         display: block; }
-        .tile .tile-hover .tile-top a path.eye {
+        .tile .tile-hover .tile-top a .eye {
           fill: #8fe5c3; }
-        .tile .tile-hover .tile-top a:hover path.eye {
-          fill: #fff;
-          -webkit-animation: scale 1s ease-in, slide 2s ease;
-          -moz-animation: scale 1s ease-in, slide 2s ease;
-          animation: scale 1s ease-in, slide 2s ease; }
+        .tile .tile-hover .tile-top a:hover .eye {
+          fill: #e2f8ef; }
     .tile .tile-hover hr {
       height: 1px;
       border-top: none;
       border-left: none;
       border-right: none;
-      border-bottom: 1px solid rgba(243, 231, 218, 0.3);
+      border-bottom: 1px solid rgba(255, 255, 255, 0.3);
       margin: 0 40px; }
     .tile .tile-hover .tile-bottom {
       margin: 20px; }
@@ -239,10 +261,9 @@ footer, .page-wrap:after {
         letter-spacing: .1em; }
       .tile .tile-hover .tile-bottom p {
         font-family: 'Lora', Times New Roman, serif;
-        font-size: 14px;
+        font-size: 16px;
         line-height: 1.6em;
-        color: #fff;
-        text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4); }
+        color: #fff; }
   .tile:hover .tile-hover, .tile:active .tile-hover {
     opacity: 1; }
   .tile .thumbnail {

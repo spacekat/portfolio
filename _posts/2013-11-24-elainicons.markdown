@@ -14,6 +14,6 @@ include sparkels, feathers, triangles, and arrows.
 
 ![Elainicons](/images/elainicons/elainicons.jpg)
 
-The Elainicons were generated from EPS files by icomoon.
+The Elainicons were generated from EPS files by [IcoMoon](http://icomoon.io/app).
 
 ![Elainicons](/images/elainicons/elainicons-icomoon.jpg)

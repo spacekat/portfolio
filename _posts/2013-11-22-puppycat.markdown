@@ -5,13 +5,15 @@ date:   2013-11-22 23:15:42
 categories: crafts sewing
 thumbnail: images/puppycat/thumb-puppy-cat.jpg
 creation-date:   2013-10-22 23:15:42
-short-description:   DIY plushie pattern for PuppyCat of Bee and PuppyCat.
+short-description:   DIY plushie pattern for PuppyCat of Bee and PuppyCat
 ---
+
+![head](/images/puppycat/puppycat-24-fin.jpg)
 
 For Thanksgiving this year, I was Bee from Bee and PuppyCat.
 
-I tried to convince my roommate's cat to dress up as PuppyCat, but just
-like Bee she proclaimed: 
+I tried to convince my roommate's cat to dress up as PuppyCat, but she
+proclaimed:
 
 ### "I don't like this costume!!"
 
@@ -64,7 +66,7 @@ Create a paw by sewing the footpad to the foot.
 
 ![paw](/images/puppycat/puppycat-14-pawsew.jpg)
 
-Attack the leg to the ankle.
+Attach the leg to the ankle.
 
 ![paw](/images/puppycat/puppycat-15-leg.jpg)
 
@@ -101,5 +103,3 @@ Attach the legs by hand.
 PuppyCat Lives! (And stares with unwavering judgement)
 
 ![head](/images/puppycat/puppycat-23-fin.jpg)
-
-![head](/images/puppycat/puppycat-24-fin.jpg)
