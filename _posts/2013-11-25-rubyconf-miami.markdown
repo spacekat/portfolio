@@ -8,12 +8,12 @@ creation-date: 2013-9-22 23:15:42
 short-description: Beachy tanks and tees for Rubyconf Miami
 ---
 
-![Shirt front](/images/rubyconf-miami/rubyconf-miami.jpg)
+![Shirt front]({{ site.baseurl}}/images/rubyconf-miami/rubyconf-miami.jpg)
 
-![on Sebastian](/images/rubyconf-miami/rubyconf-miami_sgeorgi.jpg)
+![on Sebastian]({{ site.baseurl}}/images/rubyconf-miami/rubyconf-miami_sgeorgi.jpg)
 
 As worn by the fantastic [Sebastian](https://twitter.com/_sgeorgi).
 
-![Original sketch](/images/rubyconf-miami/rubyconf-miami-sketch.jpg)
+![Original sketch]({{ site.baseurl}}/images/rubyconf-miami/rubyconf-miami-sketch.jpg)
 
 Sketching the original idea.
