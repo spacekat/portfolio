@@ -9,6 +9,6 @@ short-description: A Lorem Ipsum generator that only uses William T. Riker quote
 ---
 [rikeripsum.com](http://www.rikeripsum.com)
 
-![Riker Ipsum](/images/riker-ipsum/riker-ipsum.jpg)
+![Riker Ipsum]({{ site.baseurl}}/images/riker-ipsum/riker-ipsum.jpg)
 
-![Preliminary Riker Ipsum](/images/riker-ipsum/prelim-riker-ipsum.jpg)
+![Preliminary Riker Ipsum]({{ site.baseurl}}/images/riker-ipsum/prelim-riker-ipsum.jpg)
