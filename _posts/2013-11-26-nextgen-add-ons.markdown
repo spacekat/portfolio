@@ -9,7 +9,7 @@ short-description: Re-styled interface for add-ons
 ---
 Applied the styleguide that we based on the redesigned Engine Yard Cloud app.
 
-![Nextgen UI index](/images/nextgen-add-ons/add-ons-index.jpg)
+![Nextgen UI index]({{ site.baseurl}}/images/nextgen-add-ons/add-ons-index.jpg)
 
 Redesigned the UI for setting up third party add-ons.
 
