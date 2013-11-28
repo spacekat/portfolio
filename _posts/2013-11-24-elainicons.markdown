@@ -12,8 +12,8 @@ short-description: Web font icons designed for <a href="https://twitter.com/ejgr
 The elements in this iconset are relevent to Elaine's lifestyle, and
 include sparkels, feathers, triangles, and arrows.
 
-![Elainicons](/images/elainicons/elainicons.jpg)
+![Elainicons]({{ site.baseurl}}/images/elainicons/elainicons.jpg)
 
 The Elainicons were generated from EPS files by [IcoMoon](http://icomoon.io/app).
 
-![Elainicons](/images/elainicons/elainicons-icomoon.jpg)
+![Elainicons]({{ site.baseurl}}/images/elainicons/elainicons-icomoon.jpg)
