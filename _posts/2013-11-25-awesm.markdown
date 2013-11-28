@@ -10,12 +10,12 @@ short-description: Designed the marketing website for social media tracking app.
 
 Designed the website for San Francisco startup awe.sm, an app that tracks the spread of links through social media.
 
-![awe.sm homepage](/images/awesm/awesm-home.jpg)
+![awe.sm homepage]({{ site.baseurl}}/images/awesm/awesm-home.jpg)
 
-![awe.sm content](/images/awesm/awesm-content.jpg)
+![awe.sm content]({{ site.baseurl}}/images/awesm/awesm-content.jpg)
 
-![awe.sm pricing](/images/awesm/awesm-pricing.jpg)
+![awe.sm pricing]({{ site.baseurl}}/images/awesm/awesm-pricing.jpg)
 
 ### Wireframe from the design process
 
-![awe.sm wireframe](/images/awesm/awesm-wireframe.jpg)
+![awe.sm wireframe]({{ site.baseurl}}/images/awesm/awesm-wireframe.jpg)

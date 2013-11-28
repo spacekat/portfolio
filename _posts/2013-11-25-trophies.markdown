@@ -10,10 +10,10 @@ short-description: Custom made trophies for the five Engine Yard Innovators awar
 
 Each trophy was unique, and made from a toy robot.
 
-![Trophy 3](/images/trophies/innovators-center.jpg)
+![Trophy 3]({{ site.baseurl}}/images/trophies/innovators-center.jpg)
 
-![Trophy 4](/images/trophies/innovators-side.jpg)
+![Trophy 4]({{ site.baseurl}}/images/trophies/innovators-side.jpg)
 
-![Trophy 1](/images/trophies/innovator-white.jpg)
+![Trophy 1]({{ site.baseurl}}/images/trophies/innovator-white.jpg)
 
-![Trophy 2](/images/trophies/innovator-white2.jpg)
+![Trophy 2]({{ site.baseurl}}/images/trophies/innovator-white2.jpg)

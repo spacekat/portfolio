@@ -14,4 +14,4 @@ The design was by my amazing coworker [@valree](https://twitter.com/valree).
 
 [distill.engineyard.com/archive](http://distill.engineyard.com/archive)
 
-![Distill website](/images/distill/distill-website.jpg)
+![Distill website]({{ site.baseurl}}/images/distill/distill-website.jpg)
