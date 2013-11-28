@@ -10,7 +10,7 @@ short-description:   DIY plushie pattern for PuppyCat of Bee and PuppyCat
 
 ![head]({{ site.baseurl}}/images/puppycat/puppycat-24-fin.jpg)
 
-For Thanksgiving this year, I was Bee from Bee and PuppyCat.
+For Halloween this year, I was Bee from Bee and PuppyCat.
 
 I tried to convince my roommate's cat to dress up as PuppyCat, but she
 proclaimed:
