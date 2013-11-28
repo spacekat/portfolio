@@ -10,8 +10,8 @@ short-description: color-coding messaging for alerts and notifications
 
 Added subtle color-coding and icons to status messages, which are used to consistently on the application dashboard.
 
-![After](/images/ey-alerts/ey-alerts-after.jpg)
+![After]({{ site.baseurl}}/images/ey-alerts/ey-alerts-after.jpg)
 
 ### Before
 
-![Before and After](/images/ey-alerts/ey-alerts-before.jpg)
+![Before and After]({{ site.baseurl}}/images/ey-alerts/ey-alerts-before.jpg)
