@@ -8,7 +8,7 @@ creation-date:   2013-10-22 23:15:42
 short-description:   DIY plushie pattern for PuppyCat of Bee and PuppyCat
 ---
 
-![head](/images/puppycat/puppycat-24-fin.jpg)
+![head]({{ site.baseurl}}/images/puppycat/puppycat-24-fin.jpg)
 
 For Thanksgiving this year, I was Bee from Bee and PuppyCat.
 
@@ -21,11 +21,11 @@ Instead, I sewed my own PuppyCat plushie out of felt. Here are the steps.
 
 First, cut out all the pieces.  
 
-![Pieces](/images/puppycat/puppycat-01-pieces.jpg)
+![Pieces]({{ site.baseurl}}/images/puppycat/puppycat-01-pieces.jpg)
 
 Pin the two sides together, right side it. Stitch along the back.
 
-![sides](/images/puppycat/puppycat-02-sides.jpg)
+![sides]({{ site.baseurl}}/images/puppycat/puppycat-02-sides.jpg)
 
 Sew the four darts where the legs are. Clip the excess.
 
@@ -33,18 +33,18 @@ Pin the belly to the bottom of the sides, right side in. Sew it on, leaving the 
 
 Fill the body with stuffing.
 
-![body](/images/puppycat/puppycat-04-stuffing.jpg)
+![body]({{ site.baseurl}}/images/puppycat/puppycat-04-stuffing.jpg)
 
 On the face,sew the dart closed from the chin to the nose.
 
 Sew the back of the neck together.
 Pin the neck to the face, right side in, and sew all the way around.  Close the neck under the chin.  
 
-![face](/images/puppycat/puppycat-05-face.jpg)
+![face]({{ site.baseurl}}/images/puppycat/puppycat-05-face.jpg)
 
 Sew the front of the ear to the back, good side in.
 
-![ear](/images/puppycat/puppycat-06-ear.jpg)
+![ear]({{ site.baseurl}}/images/puppycat/puppycat-06-ear.jpg)
 
 Pin the ears to the head. By hand, sew the back of the ears to the head. Fill the ear with stuffing. then hand sew the front of the ear to the head.
 
@@ -52,54 +52,54 @@ Pin the ears to the head. By hand, sew the back of the ears to the head. Fill th
 
 Sew the face parts on by hand.
 
-![ear](/images/puppycat/puppycat-09-face.jpg)
+![ear]({{ site.baseurl}}/images/puppycat/puppycat-09-face.jpg)
 
-![ear](/images/puppycat/puppycat-10-faceon.jpg)
+![ear]({{ site.baseurl}}/images/puppycat/puppycat-10-faceon.jpg)
 
-![ear](/images/puppycat/puppycat-11-faceinside.jpg)
+![ear]({{ site.baseurl}}/images/puppycat/puppycat-11-faceinside.jpg)
 
 Create a paw by sewing the footpad to the foot.
 
-![paw](/images/puppycat/puppycat-12-paw.jpg)
+![paw]({{ site.baseurl}}/images/puppycat/puppycat-12-paw.jpg)
 
-![paw](/images/puppycat/puppycat-13-pawpin.jpg)
+![paw]({{ site.baseurl}}/images/puppycat/puppycat-13-pawpin.jpg)
 
-![paw](/images/puppycat/puppycat-14-pawsew.jpg)
+![paw]({{ site.baseurl}}/images/puppycat/puppycat-14-pawsew.jpg)
 
 Attach the leg to the ankle.
 
-![paw](/images/puppycat/puppycat-15-leg.jpg)
+![paw]({{ site.baseurl}}/images/puppycat/puppycat-15-leg.jpg)
 
 Create a tail.
 
-![tail](/images/puppycat/puppycat-16-tail.jpg)
+![tail]({{ site.baseurl}}/images/puppycat/puppycat-16-tail.jpg)
 
 Hand sew tail to the back.
 
-![tail](/images/puppycat/puppycat-17-tailattached.jpg)
+![tail]({{ site.baseurl}}/images/puppycat/puppycat-17-tailattached.jpg)
 
 Sewing the pink collar pieces together, and fill with some stuffing.
 
 Attach the collar to the head.
 
-![collar](/images/puppycat/puppycat-18-collar.jpg)
+![collar]({{ site.baseurl}}/images/puppycat/puppycat-18-collar.jpg)
 
 Create the bell with four chevrons of yellow (I forgot the fourth in this
 picture).
 
-![collar](/images/puppycat/puppycat-19-bell.jpg)
+![collar]({{ site.baseurl}}/images/puppycat/puppycat-19-bell.jpg)
 
-![collar](/images/puppycat/puppycat-20-bell.jpg)
+![collar]({{ site.baseurl}}/images/puppycat/puppycat-20-bell.jpg)
 
 Attach the bell to the head by hand. I cut a U-shaped notch from the
 body so the bell wouldn't stick out so far.
 
-![head](/images/puppycat/puppycat-21-attachbell.jpg)
+![head]({{ site.baseurl}}/images/puppycat/puppycat-21-attachbell.jpg)
 
 Attach the legs by hand.
 
-![head](/images/puppycat/puppycat-22-attachlegs.jpg)
+![head]({{ site.baseurl}}/images/puppycat/puppycat-22-attachlegs.jpg)
 
 PuppyCat Lives! (And stares with unwavering judgement)
 
-![head](/images/puppycat/puppycat-23-fin.jpg)
+![head]({{ site.baseurl}}/images/puppycat/puppycat-23-fin.jpg)
