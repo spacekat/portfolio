@@ -1,7 +1,7 @@
 Simple Jekyll site for sharing stuff I do.
 
 ## Generate the site with Jekyll 
-`bundle exec jekyll serve -w` will watch and compile the site.
+`b jekyll serve --baseurl="" -w` will watch and compile the site.
 
 Jekyll docs: http://jekyllrb.com/docs/usage/
 

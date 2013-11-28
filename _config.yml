@@ -1,4 +1,4 @@
 name: Spacekat
 markdown: redcarpet
 pygments: true
-baseurl: /portfolio/
+baseurl: /portfolio
