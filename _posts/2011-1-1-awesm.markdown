@@ -1,10 +1,10 @@
 ---
 layout: post
 title:  "awe.sm website"
-date:   2013-11-22 23:15:42
+date:   2011-01-01 23:15:42
 categories: ui
 thumbnail: images/awesm/awesm-thumb.jpg
-creation-date: 2011-1-22 23:15:42
+creation-date: 2011-01-01 23:15:42
 short-description: Designed the marketing website for social media tracking app.
 ---
 

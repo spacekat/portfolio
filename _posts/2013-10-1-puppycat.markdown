@@ -1,11 +1,11 @@
 ---
 layout: post
 title:  "PuppyCat plushie"
-date:   2013-11-22 23:15:42
-categories: crafts sewing
+date:   2013-10-01 23:15:42
+categories: crafts
 thumbnail: images/puppycat/thumb-puppy-cat.jpg
-creation-date:   2013-10-22 23:15:42
-short-description:   DIY plushie pattern for PuppyCat of Bee and PuppyCat
+creation-date: 2013-10-01 23:15:42
+short-description: DIY plushie pattern for PuppyCat of Bee and PuppyCat
 ---
 
 ![head]({{ site.baseurl}}/images/puppycat/puppycat-24-fin.jpg)

@@ -1,10 +1,10 @@
 ---
 layout: post
 title:  "Trinidad"
-date:   2013-11-22 23:15:42
-categories: logo
+date:   2011-09-01 23:15:42
+categories: graphic_design
 thumbnail: images/trinidad/thumb-trinidad-2.jpg
-creation-date: 2011-10-22 23:15:42
+creation-date: 2011-09-01 23:15:42
 short-description: Logo design for the Trinidad web server
 ---
 The red tangram cat represents Trini, Trinidad creator <a href="https://twitter.com/calavera" target="_blank">@calavera</a>&#39;s cat from Spain.

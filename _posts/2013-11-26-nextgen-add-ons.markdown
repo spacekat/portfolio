@@ -2,14 +2,15 @@
 layout: post
 title:  "Nextgen Add-ons"
 date:   2013-11-22 23:15:42
-categories: ui ux
+categories: ui
 thumbnail: images/nextgen-add-ons/add-ons-thumb.jpg
 creation-date: 2013-11-22 23:15:42
 short-description: Re-styled interface for add-ons
 ---
-Applied the styleguide that we based on the redesigned Engine Yard Cloud app.
+
+Using the Styleguide that we created with our Nextgen app UI, I
+restyled and simplified the Engine Yard Add-ons Rails app.
+
+It's a UI for adding third party services to your app on Engine Yard.
 
 ![Nextgen UI index]({{ site.baseurl}}/images/nextgen-add-ons/add-ons-index.jpg)
-
-Redesigned the UI for setting up third party add-ons.
-

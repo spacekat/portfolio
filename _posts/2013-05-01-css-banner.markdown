@@ -1,11 +1,11 @@
 ---
 layout: post
 title:  "CSS only banner"
-date:   2013-11-22 23:15:42
-categories: ui coding
+date:   2013-05-01 23:15:42
+categories: coding
 thumbnail: images/css-banner/css-banner-thumb.jpg
-creation-date: 2013-11-22 23:15:42
-short-description: Simple horizontal banner made with Haml and Sass for the Distill website
+creation-date: 2013-05-01 23:15:42
+short-description: Horizontal banner made with Haml and Sass for the Distill website
 ---
 
 ### [distill.engineyard.com/archive#home](http://distill.engineyard.com/archive#home)

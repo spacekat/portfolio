@@ -1,10 +1,10 @@
 ---
 layout: post
 title:  "Elainicons"
-date:   2013-11-22 23:15:42
-categories: UI
+date:   2012-11-01 23:15:42
+categories: ui coding
 thumbnail: images/elainicons/thumb-elainicons.jpg
-creation-date: 2012-10-22 23:15:42
+creation-date: 2012-11-01 23:15:42
 short-description: Web font icons designed for <a href="https://twitter.com/ejgreenberg">@ejgreenberg</a>
 ---
 [spacekat.github.com/elainicons](spacekat.github.com/elainicons)

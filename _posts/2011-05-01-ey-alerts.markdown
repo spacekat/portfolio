@@ -1,14 +1,17 @@
 ---
 layout: post
 title:  "Status messaging"
-date:   2013-11-22 23:15:42
-categories: ui
+date:   2011-05-01 23:15:42
+categories: ui coding
 thumbnail: images/ey-alerts/thumb-ey-alerts.jpg
-creation-date: 2011-2-22 23:15:42
+creation-date: 2011-05-01 23:15:42
 short-description: color-coding messaging for alerts and notifications
 ---
 
 Added subtle color-coding and icons to status messages, which are used to consistently on the application dashboard.
+
+The HTML was standardized for these messages and added to our
+styleguide.
 
 ![After]({{ site.baseurl}}/images/ey-alerts/ey-alerts-after.jpg)
 

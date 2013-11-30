@@ -155,11 +155,12 @@ section {
 
 .navigation {
     position: relative;
+    margin-top: -20px;
 }
 .nav {
     @include transition (all .3s ease-in-out);
     position: absolute;
-    top: 250px;
+    top: 0px;
     width: 70px;
     height: 70px;
     background-color: hsla(0, 6%, 87%, .5);

@@ -1,10 +1,10 @@
 ---
 layout: post
 title:  "Engine Yard Miami"
-date:   2013-11-22 23:15:42
+date:   2013-09-01 23:15:42
 categories: graphic
 thumbnail: images/rubyconf-miami/rubyconf-miami-thumb.jpg
-creation-date: 2013-9-22 23:15:42
+creation-date: 2013-09-01 23:15:42
 short-description: Beachy tanks and tees for Rubyconf Miami
 ---
 

@@ -1,10 +1,10 @@
 ---
 layout: post
 title:  "Distill"
-date:   2013-11-22 23:15:42
+date:   2013-07-01 23:15:42
 categories: coding
 thumbnail: images/distill/distill-website-thumb.jpg
-creation-date: 2013-7-22 23:15:42
+creation-date: 2013-07-01 23:15:42
 short-description: Coded the marketing website for Engine Yard's first conference
 ---
 

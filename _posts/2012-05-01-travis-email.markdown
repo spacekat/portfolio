@@ -1,10 +1,10 @@
 ---
 layout: post
 title:  "Travis CI email"
-date:   2013-11-22 23:15:42
+date:   2012-05-01 23:15:42
 categories: ui
 thumbnail: images/travis/travis-email-thumb.jpg
-creation-date: 2012-5-22 23:15:42
+creation-date: 2012-05-01 23:15:42
 short-description: Updated the Travis CI build email design.
 ---
 
