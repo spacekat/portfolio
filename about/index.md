@@ -7,4 +7,6 @@ short-description: How it was made
 
 Site generated with [Jekyll](http://jekyllrb.com/) using [Sass](http://sass-lang.com/), [Bourbon](http://bourbon.io/), and [Neat](http://neat.bourbon.io/).
 
-Built using GitHub and GitHub Pages. [https://github.com/spacekat/portfolio](https://github.com/spacekat/portfolio)
+Built on GitHub Pages.
+
+Repository [https://github.com/spacekat/portfolio](https://github.com/spacekat/portfolio)
