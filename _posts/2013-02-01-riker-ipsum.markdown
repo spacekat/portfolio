@@ -11,4 +11,14 @@ short-description: A Lorem Ipsum generator that only uses William T. Riker quote
 
 ![Riker Ipsum]({{ site.baseurl}}/images/riker-ipsum/riker-ipsum.jpg)
 
+### Planning sketch
+
 ![Preliminary Riker Ipsum]({{ site.baseurl}}/images/riker-ipsum/prelim-riker-ipsum.jpg)
+
+### space style exploration
+
+My original idea was to have a space background, but it made the text
+difficule to read, and also it the visual metaphor of clicky buttons
+didn'ts make sense floating in air.
+
+![first design idea]({{ site.baseurl}}/images/riker-ipsum/riker-ipsum-og.png)

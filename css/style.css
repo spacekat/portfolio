@@ -65,6 +65,11 @@ p {
 p {
   margin: 1em 0; }
 
+strong {
+        font-family: 'Share Tech Mono', sans-serif;
+        text-transform: uppercase;
+}
+
 a, a:visited {
   color: #8fb1e5;
   text-decoration: none;
@@ -162,10 +167,10 @@ section article {
     background-color: rgba(143, 229, 195, 0.5); }
 
 a.nav-prev {
-  left: 0; }
+  right: 0; }
 
 a.nav-next {
-  right: 0; }
+  left: 0; }
 
 footer {
   background: #0e0c0a;

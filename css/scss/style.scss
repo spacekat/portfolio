@@ -172,11 +172,11 @@ section {
 }
 a.nav-prev {
     @extend .nav;
-    left: 0;
+    right: 0;
 }
 a.nav-next {
     @extend .nav;
-    right: 0;
+    left: 0;
 }
 footer {
     background: $darkopal;

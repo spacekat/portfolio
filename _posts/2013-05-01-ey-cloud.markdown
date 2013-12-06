@@ -1,0 +1,30 @@
+---
+layout: post
+title:  "Engine Yard Cloud"
+date:   2013-05-01 23:15:42
+categories: graphic
+thumbnail: images/ey-cloud/2013-05-11-instance-status/instances-dashboard-thumb.jpg
+creation-date: 2013-05-01 23:15:42
+short-description: Some Engine Yard Cloud UI updates
+---
+
+An update to how active Add-ons are displayed within a customer's
+environment.
+
+![add ons list](/images/ey-cloud/2013-05-13-addons/addons-env-dash-pt2.png)
+
+### before
+
+![add ons list before](/images/ey-cloud/2013-05-13-addons/addons-before.jpg)
+
+A revision to how instance summaries are displayed. 
+
+![Instances summary](/images/ey-cloud/2013-05-11-instance-status/instances-dashboard.png)
+
+Added the availability zone in the upper right. Made an expandable
+"details" area. Made the area that conveys instance health larger, so
+you can tell at a glance which are doing well and which are down.
+
+### Before
+
+![Instances summary](/images/ey-cloud/2013-05-11-instance-status/instance-dashboard-before.jpg)

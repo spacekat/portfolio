@@ -9,7 +9,7 @@ short-description: The user interface to add third party software to customer's 
 ---
 User interface for Engine Yard's customers to add and integrate with third party software. 
 
-I am currently working on [an updated interface for Add-ons]({{ site.baseurl}}/ui/ux/2013/11/22/nextgen-add-ons.html).
+I am currently working on [an updated interface for Add-ons]({% post_url 2013-11-01-nextgen-add-ons %})
 
 ![Add-ons step 1]({{ site.baseurl}}/images/add-ons/addons-1.jpg)
 
