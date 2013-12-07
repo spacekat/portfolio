@@ -9,22 +9,23 @@ short-description: Some Engine Yard Cloud UI updates
 ---
 
 An update to how active Add-ons are displayed within a customer's
-environment.
+environment. I ditched the grey boxes-within-boxes for a simple list style.
 
-![add ons list](/images/ey-cloud/2013-05-13-addons/addons-env-dash-pt2.png)
+![add ons list]({{ site.baseurl}}/images/ey-cloud/2013-05-13-addons/addons-env-dash-pt2.png)
 
-### before
+This is what the page looked like before.
 
-![add ons list before](/images/ey-cloud/2013-05-13-addons/addons-before.jpg)
+![add ons list before]({{ site.baseurl}}/images/ey-cloud/2013-05-13-addons/addons-before.jpg)
 
-A revision to how instance summaries are displayed. 
+<hr>
 
-![Instances summary](/images/ey-cloud/2013-05-11-instance-status/instances-dashboard.png)
+**Revisions to how instance summaries are displayed.**
 
-Added the availability zone in the upper right. Made an expandable
-"details" area. Made the area that conveys instance health larger, so
-you can tell at a glance which are doing well and which are down.
+The new layout added the server availability zone in the upper right. The area that conveys instance health (in color) is larger, so customers can tell at a glance which are doing well and which are down. It also uses an expandable "details" area for logs, performance graphs, and other instance details. The "terminate" option is in the dropdown to the right.
+
+![Instances summary]({{ site.baseurl}}/images/ey-cloud/2013-05-11-instance-status/instances-dashboard.png)
+
 
 ### Before
 
-![Instances summary](/images/ey-cloud/2013-05-11-instance-status/instance-dashboard-before.jpg)
+![Instances summary]({{ site.baseurl}}/images/ey-cloud/2013-05-11-instance-status/instance-dashboard-before.jpg)

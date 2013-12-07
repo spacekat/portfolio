@@ -7,10 +7,10 @@ thumbnail: images/elainicons/thumb-elainicons.jpg
 creation-date: 2012-11-01 23:15:42
 short-description: Web font icons designed for <a href="https://twitter.com/ejgreenberg">@ejgreenberg</a>
 ---
-[spacekat.github.com/elainicons](spacekat.github.com/elainicons)
-
 The elements in this iconset are relevent to Elaine's lifestyle, and
 include sparkels, feathers, triangles, and arrows.
+
+### [spacekat.github.com/elainicons](spacekat.github.com/elainicons)
 
 ![Elainicons]({{ site.baseurl}}/images/elainicons/elainicons.jpg)
 

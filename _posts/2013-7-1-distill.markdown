@@ -12,6 +12,6 @@ Coded the marketing website for Engine Yard's Distill conference, 2013.
 
 The design was by my amazing coworker [@valree](https://twitter.com/valree).
 
-[distill.engineyard.com/archive](http://distill.engineyard.com/archive)
+### [distill.engineyard.com/archive](http://distill.engineyard.com/archive)
 
 ![Distill website]({{ site.baseurl}}/images/distill/distill-website.jpg)

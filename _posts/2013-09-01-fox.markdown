@@ -1,0 +1,19 @@
+---
+layout: post
+title:  "Dublin Fox"
+date:   2013-09-01 23:15:42
+categories: graphic
+thumbnail: images/dublin-fox/fox-thumb.jpg
+creation-date: 2013-09-01 23:15:42
+short-description: Engine Yard Dublin's spirit animal.
+---
+
+![spirit fox]({{ site.baseurl}}/images/dublin-fox/fox-tech.jpg)
+
+### whiteboarding the idea
+
+![spirit fox whiteboard]({{ site.baseurl}}/images/dublin-fox/whiteboard-fox.jpg)
+
+### preliminary sketch
+
+![spirit fox sketch]({{ site.baseurl}}/images/dublin-fox/fox-sketch.jpg)
