@@ -8,6 +8,10 @@ creation-date: 2013-09-01 23:15:42
 short-description: Engine Yard Dublin's spirit animal.
 ---
 
+A T-shirt illustration capturing what made Engine Yard Dublin special.
+The fox is surrounded by some things representings Ireland's history,
+like it's literary traditions and railway system.
+
 ![spirit fox]({{ site.baseurl}}/images/dublin-fox/fox-tech.jpg)
 
 ### whiteboarding the idea

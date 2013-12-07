@@ -19,7 +19,6 @@ styleguide.
 
 ![Before and After]({{ site.baseurl}}/images/ey-alerts/ey-alerts-before.jpg)
 
-Here's what the style looked like after this page was ked like after
-this page was refactored. 
+Here's what the style looked like after this page was updated.
 
 ![side by side]({{ site.baseurl}}/images/ey-alerts/alerts-800.jpg)

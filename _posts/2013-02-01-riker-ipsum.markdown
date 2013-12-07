@@ -19,6 +19,6 @@ short-description: A Lorem Ipsum generator that only uses William T. Riker quote
 
 My original idea was to have a space background, but it made the text
 difficule to read, and also it the visual metaphor of clicky buttons
-didn'ts make sense floating in air.
+didn't make sense floating in air.
 
 ![first design idea]({{ site.baseurl}}/images/riker-ipsum/riker-ipsum-og.png)
