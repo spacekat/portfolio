@@ -27,7 +27,7 @@ I wanted to create an interface with a familiar flow for setting up these dispar
 
 My plan was to address add-on activation in these three steps (counter-clockwise from the upper left.)
 
-![Add-ons steps](/images/add-ons/add-ons-steps.jpg)
+![Add-ons steps]({{ site.baseurl}}/images/add-ons/add-ons-steps.jpg)
 
 **Step 1.** Browse all the available add-ons.
 
@@ -45,7 +45,7 @@ We were launching this feature with about ten add-ons (with the hope of adding m
 
 The name and the logo of each of the add-ons would be useful for instant recognition and search-ability. A short description would be helpful for someone who didn't immediately recognize an add-on.
 
-![Add-ons preliminary index](/images/add-ons/add-ons-index-preliminary.jpg)
+![Add-ons preliminary index]({{ site.baseurl}}/images/add-ons/add-ons-index-preliminary.jpg)
 
 **Early progress making the index page.**
 
@@ -53,7 +53,7 @@ The name and the logo of each of the add-ons would be useful for instant recogni
 
 On the homepage, I needed a way for users to differentiate between an unused and in-use add-ons. I sketched the tiles and their possible states: Available, partially activated (incomplete), and fully activated.
 
-![Add-ons tile flag](/images/add-ons/add-ons-tile-flag-wireframe.jpg)
+![Add-ons tile flag]({{ site.baseurl}}/images/add-ons/add-ons-tile-flag-wireframe.jpg)
 
 **Activated add-ons have a diagonal banner in the upper right.**
 
@@ -61,7 +61,7 @@ On the homepage, I needed a way for users to differentiate between an unused and
 
 The logo of each add-on was added. The two calls-to-action "Enable" and "Details" were replaced with just one: "Details." When an add-on is fully setup, the pink "enabled" flag is in the upper right corner, and the "Details" button becomes "Manage".  Category filters were made more clear in the left sidebar.
 
-![Add-ons index with flag](/images/add-ons/add-ons-index-better.jpg)
+![Add-ons index with flag]({{ site.baseurl}}/images/add-ons/add-ons-index-better.jpg)
 
 ### Step 2: View Details
 
@@ -69,7 +69,7 @@ Clicking on an add-on from our marketplace would reveal more details about the s
 
 Add-ons had lengthy pricing details and complex integration instructions. Initially, I experimented with simply a "Setup" button to take users to the step(s) after Sign up.
 
-![Add-ons view details](/images/add-ons/add-ons-details-sketch.jpg)
+![Add-ons view details]({{ site.baseurl}}/images/add-ons/add-ons-details-sketch.jpg)
 
 **Initial layout for the details page.**
   
@@ -96,7 +96,7 @@ We wanted users to see what further steps needed to be taken, and indicate how f
 
 The white pointer at the bottom indicates which step the customer is on.
 
-![Add-ons steps](/images/add-ons/add-ons-details-step.jpg)
+![Add-ons steps]({{ site.baseurl}}/images/add-ons/add-ons-details-step.jpg)
 
 The "Activate, Update Code, and Deploy" steps are semi-transparent until the required "Sign Up" is complete. The customer can still see the instructions and content on these pages, but there is a message at the top that says "you first need to sign up".
 
@@ -104,23 +104,23 @@ The "Activate, Update Code, and Deploy" steps are semi-transparent until the req
 
 The Activate step lets customers choose which environment will use the add-on.
 
-![Add-ons steps](/images/add-ons/add-ons-activate-step.jpg)
+![Add-ons steps]({{ site.baseurl}}/images/add-ons/add-ons-activate-step.jpg)
 
 When an environment is chosen, it is listed underneath.
 
-![Add-ons steps](/images/add-ons/add-ons-activate-step-done.jpg)
+![Add-ons steps]({{ site.baseurl}}/images/add-ons/add-ons-activate-step-done.jpg)
 
 ### Update code
 
 This step contains instructions for customers to edit their application code.
 
-![Add-ons code step](/images/add-ons/add-ons-code-step.jpg)
+![Add-ons code step]({{ site.baseurl}}/images/add-ons/add-ons-code-step.jpg)
 
 ### Deploy
 
 The final step is to re-deploy the environment. This step provides a link to the page in the app where customers do their deployments.
 
-![Add-ons deploy step](/images/add-ons/add-ons-deploy-step.jpg)
+![Add-ons deploy step]({{ site.baseurl}}/images/add-ons/add-ons-deploy-step.jpg)
 
 ### Next steps
 
@@ -130,4 +130,4 @@ I learned that customers were getting confused on steps that kicked them off to 
 
 Currently I am exploring different ways to improve that interaction. I'm leaning toward a separation of the "add-on details" and the "setup" page, putting the setup steps all on one page.
 
-![Add-ons future](/images/add-ons/add-ons-future.jpg)
+![Add-ons future]({{ site.baseurl}}/images/add-ons/add-ons-future.jpg)

@@ -9,5 +9,5 @@ short-description: Pastry Cloud
 ---
 Tee hee.
 
-![Salted Caramel Cloud](/images/salted-caramel-cloud/butter-soft.png)
+![Salted Caramel Cloud]({{ site.baseurl}}/images/salted-caramel-cloud/butter-soft.png)
 
