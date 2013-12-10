@@ -10,7 +10,7 @@ short-description: Web font icons designed for <a href="https://twitter.com/ejgr
 The elements in this iconset are relevent to Elaine's lifestyle, and
 include sparkels, feathers, triangles, and arrows.
 
-### [spacekat.github.com/elainicons](spacekat.github.com/elainicons)
+### [spacekat.github.com/elainicons](http://spacekat.github.com/elainicons)
 
 ![Elainicons]({{ site.baseurl}}/images/elainicons/elainicons.jpg)
 

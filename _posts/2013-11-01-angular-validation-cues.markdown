@@ -15,8 +15,7 @@ This validationCue directive produces a `<span>` that can be placed after any in
 
 <iframe width="800" height="400" src="http://jsfiddle.net/jessicaspacekat/RQ7vu/13/embedded/" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
 
-### Including these libraries
-bootstrap-combined.min.css, angular.min.js, angular-animate.min.js
+This demo is including these libraries: bootstrap-combined.min.css, angular.min.js, angular-animate.min.js
 
 Here's what it looks like with Symbol Set icons for the check and
 arrow.

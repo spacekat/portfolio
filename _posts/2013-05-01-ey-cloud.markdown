@@ -21,7 +21,7 @@ This is what the page looked like before.
 
 **Revisions to how instance summaries are displayed.**
 
-The new layout added the server availability zone in the upper right. The area that conveys instance health (in color) is larger, so customers can tell at a glance which are doing well and which are down. It also uses an expandable "details" area for logs, performance graphs, and other instance details. The "terminate" option is in the dropdown to the right.
+In this new layout, I added the server availability zone in the upper right. The area that conveys instance health (in color) is larger, so customers can tell at a glance which are doing well and which are down. It also uses an expandable "details" area for logs, performance graphs, and other instance details. The "terminate" option is in the dropdown to the right.
 
 ![Instances summary]({{ site.baseurl}}/images/ey-cloud/2013-05-11-instance-status/instances-dashboard.png)
 
