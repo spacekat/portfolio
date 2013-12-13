@@ -65,11 +65,6 @@ p {
 p {
   margin: 1em 0; }
 
-strong {
-        font-family: 'Share Tech Mono', sans-serif;
-        text-transform: uppercase;
-}
-
 a, a:visited {
   color: #8fb1e5;
   text-decoration: none;
@@ -83,6 +78,14 @@ a, a:visited {
     text-decoration: none; }
     .subheading a:hover, .subheading a:visited:hover {
       color: #8fe5c3; }
+
+hr {
+  height: 1px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1px solid rgba(220, 219, 219, 0.8);
+  margin: 40px; }
 
 header {
   *zoom: 1;

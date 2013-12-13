@@ -96,6 +96,14 @@ a, a:visited {
 // End typography
 
 // Layout
+hr {
+    height: 1px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid hsla(30, 2%, 86%, 0.8);
+    margin: 40px;
+}
 header {
     @include clearfix;
     background-color: $darkopal;
