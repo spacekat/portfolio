@@ -8,26 +8,23 @@ creation-date: 2014-02-11 23:15:42
 short-description: Coded a mobile-friendly version of EY's marketing site
 ---
 
-Along with a team of front end developers (Gerlando Piro [@gpxl](https://twitter.com/gpxl), Brendan Hastings, and Ronan Flynn [@flynnduism](http://twitter.com/flynnduism)), I helped to bring the rebranded website for Engine Yard to life.
+Along with a team of front end developers Gerlando Piro ([@gpxl](https://twitter.com/gpxl)), Brendan Hastings, and Ronan Flynn ([@flynnduism](http://twitter.com/flynnduism)), I helped to bring the rebranded website for Engine Yard to life.
 
 ### [www.engineyard.com](http://www.engineyard.com)
 
 I focused on making the pages mobile and tablet friendly.
 
-<img src="{{ site.baseurl}}/images/engineyarddotcom/website-mobile-home.jpg" alt="Engine Yard website home" style="width: 320px;"/>
-caption: desktop
+### desktop
+<img src="{{ site.baseurl}}/images/engineyarddotcom/website-desktop.png" alt="Desktop" style="width: 800px;"/>
 
-<img src="{{ site.baseurl}}/images/engineyarddotcom/website-mobile-home.jpg" alt="Engine Yard website home" style="width: 320px;"/>
-caption: tablet
-
+### mobile
 <img src="{{ site.baseurl}}/images/engineyarddotcom/website-mobile-home.jpg" alt="Engine Yard website home" style="width: 320px;"/>
 
 I made the header collapse in a way that shows the navigation links for as long as possible.
 
-<img src="{{ site.baseurl}}/images/engineyarddotcom/website-mobile-home.jpg" alt="Engine Yard website home" style="width: 320px;"/>
+<img src="{{ site.baseurl}}/images/engineyarddotcom/better-header.gif" alt="collapsible header" style="width: 800px;"/>
 
-They finally collapse into a dropdown when they can no longer be
-displayed in line.
+The navigaton finally collapses into a dropdown when they can no longer be displayed in line.
 
 <img src="{{ site.baseurl}}/images/engineyarddotcom/website-mobile-home-nav.jpg" alt="Engine Yard website nav" style="width: 320px;"/>
 
