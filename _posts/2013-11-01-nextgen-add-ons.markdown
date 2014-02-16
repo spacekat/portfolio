@@ -22,6 +22,7 @@ For this project, I used the styleguide that we created alongside Engine Yard's 
 ### A static shot of the Add-ons index
 
 ![Nextgen addons index]({{ site.baseurl}}/images/nextgen-add-ons/add-ons-index.jpg)
+
 <!--
 I also did some styling to the admin interface that our partners use to manage their integration.
 
