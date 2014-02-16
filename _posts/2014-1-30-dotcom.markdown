@@ -1,0 +1,35 @@
+---
+layout: post
+title:  "engineyard.com"
+date:   2014-01-30 23:15:42
+categories: coding
+thumbnail: images/engineyarddotcom/thumb-website.jpg
+creation-date: 2014-02-11 23:15:42
+short-description: Coded a mobile-friendly version of EY's marketing site
+---
+
+Along with a team of front end developers (Gerlando Piro [@gpxl](https://twitter.com/gpxl), Brendan Hastings, and Ronan Flynn [@flynnduism](http://twitter.com/flynnduism)), I helped to bring the rebranded website for Engine Yard to life.
+
+### [www.engineyard.com](http://www.engineyard.com)
+
+I focused on making the pages mobile and tablet friendly.
+
+<img src="{{ site.baseurl}}/images/engineyarddotcom/website-mobile-home.jpg" alt="Engine Yard website home" style="width: 320px;"/>
+caption: desktop
+
+<img src="{{ site.baseurl}}/images/engineyarddotcom/website-mobile-home.jpg" alt="Engine Yard website home" style="width: 320px;"/>
+caption: tablet
+
+<img src="{{ site.baseurl}}/images/engineyarddotcom/website-mobile-home.jpg" alt="Engine Yard website home" style="width: 320px;"/>
+
+I made the header collapse in a way that shows the navigation links for as long as possible.
+
+<img src="{{ site.baseurl}}/images/engineyarddotcom/website-mobile-home.jpg" alt="Engine Yard website home" style="width: 320px;"/>
+
+They finally collapse into a dropdown when they can no longer be
+displayed in line.
+
+<img src="{{ site.baseurl}}/images/engineyarddotcom/website-mobile-home-nav.jpg" alt="Engine Yard website nav" style="width: 320px;"/>
+
+I updated our styleguide from Bootstrap 2 to use the [Bootstrap 3 grid system](http://getbootstrap.com/css/#grid) so that it would be easier to setup responsive breakpoints.
+
