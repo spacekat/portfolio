@@ -1,0 +1,21 @@
+---
+layout: post
+title:  "Manage Cron Jobs"
+date:   2014-03-02 23:15:42
+categories: design, coding
+thumbnail: images/crons/thumb-cron.jpg
+creation-date: 2014-03-02 23:15:42
+short-description: List and add cron jobs to clusters or servers
+---
+
+The interface for adding a new cron used as few abstractions as possible, since cron users are likely already familiar with the formatting and behavior of cron jobs.
+
+<img src="{{ site.baseurl}}/images/crons/add-a-cron.jpg" alt="add cron job" width=800 />
+
+The list is grouped by cluster-wide crons, and then server specific crons.
+
+<img src="{{ site.baseurl}}/images/crons/list-crons.jpg" alt="list cron jobs" width=800 />
+
+Here's a GIF of the interaction in the new cron form:
+
+<img src="{{ site.baseurl}}/images/crons/crons-simple.gif" alt="animation of adding a cron job" width=800 />
