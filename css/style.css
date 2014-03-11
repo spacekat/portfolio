@@ -143,6 +143,7 @@ section article {
   .post:last-child {
     margin-right: 0; }
   .post p {
+    width: 800px;
     padding: 30px 0;
     margin: 0 auto;
     font-size: 18px; }
@@ -224,12 +225,9 @@ footer, .page-wrap:after {
     height: 300px;
     background-color: rgba(14, 12, 10, 0.8);
     z-index: 5;
-    opacity: 0;
-    -webkit-transition: opacity 1s ease;
-    -moz-transition: opacity 1s ease;
-    transition: opacity 1s ease; }
+    opacity: 0; }
     .tile .tile-hover:hover {
-      opactiy: 1;
+      opacity: 1;
       -webkit-transition: opacity 0.4s ease;
       -moz-transition: opacity 0.4s ease;
       transition: opacity 0.4s ease; }

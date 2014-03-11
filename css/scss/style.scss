@@ -150,6 +150,7 @@ section {
     text-align: center;
     padding-bottom: 40px;
     p {
+        width: 800px;
         padding: 30px 0;
         margin: 0 auto;
         font-size: 18px;
@@ -226,9 +227,9 @@ footer, .page-wrap:after {
         background-color: $darkopal-transparency;
         z-index: 5;
         opacity: 0;
-        @include transition (opacity 1s ease);
+        //@include transition (opacity 1s ease);
         &:hover {
-            opactiy: 1;
+            opacity: 1;
             @include transition (opacity .4s ease);
         }
         .tile-top {
