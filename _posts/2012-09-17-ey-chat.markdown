@@ -1,0 +1,162 @@
+---
+layout: post
+title:  "Node.js chat app"
+date:   2012-09-17 23:15:42
+categories: ui coding
+thumbnail: images/node-chat/thumb-chat.jpg
+creation-date: 2012-09-17 23:15:42
+short-description: Design process for a Node.js chat app
+---
+
+In the interest of documenting our design process, I took daily
+screenshots of the design and implementation of a simple chat app that
+I whipped up for work with fellow UX Designer <a href="http://inrgbwetrust.com/">Andrew Collins</a>.
+
+Each snapshot reflects the steps we took in implemention,
+as well as the design desicions and changes that we made along the way.
+
+### Wireframe to App
+
+Here is a side by side comparison of the wireframe and the final app.
+
+![before and after]({{ site.baseurl}}/images/node-chat/before-after.jpg)
+
+### Backstory 
+
+A couple weeks ago, <a href="http://www.engineyard.com">Engine Yard</a> was preparing to launch
+support for Node.js applications. We wanted to provide
+a simple demo app for those who wanted to test out the Engine Yard stack but didn’t have a Node.js app of their own to deploy.
+
+My coworker Andrew and I designed the demo app by making
+wireframes, coding the frontend using <a href="http://twitter.github.com/bootstrap/">Twitter Bootstrap</a>, and then
+amending the theme to the style we wanted.
+
+The process took about a week. Here are the steps!
+
+### Step 1
+
+### Wireframe
+
+The first wireframes for this app were made by sketching rough ideas using the Paper app
+on an iPad.
+
+![The rough wireframe]({{ site.baseurl}}/images/node-chat/1-wireframe.png)
+
+I planned the main layout so that the chat window was where the action
+was, the list of members was on the right, and the footer contained
+more information about deploying Node.js on Engine
+Yard.
+
+### Step 2
+
+### Wiring it up with Twitter Bootstrap
+
+Without getting into any presentational detail, we coded the front
+end in HTML and CSS, using Twitter Bootstrap and the set of <a href="http://twitter.github.com/bootstrap/base-css.html#icons">Glyphicons</a> that came with it.
+
+![bootstrap]({{ site.baseurl}}/images/node-chat/2-bootstrapped.png)
+
+At this point, the app was rough to look at, but had a solid layout and the CSS selectors
+that came with Twitter Bootstrap would be a good foundation for the refinement that would come later.
+
+### Step 3
+
+### Added sticky footer
+
+We started refining the colors, and adding the JavaScript and CSS to include a footer that would stick to the bottom
+of the browser window.
+
+![footer and refinements ]({{ site.baseurl}}/images/node-chat/3-stuck-footer.png)
+
+### Typographic style
+
+We worked on the typographic and button styles. We wanted the buttons to be less heavy, so they woulnd't distract from the main actions of the app in the chat window. We also matched the icons to the color of the text.
+
+At the same time, we started brainstorming how to set your
+chat apart from the other chat members. We experimented with
+highlighting chat lines based on author.
+
+![typographic update]({{ site.baseurl}}/images/node-chat/4-type-and-button-style.png)
+
+### Step 4
+
+### Reorganizing links
+
+We thought more about the header and footer content and where the
+links should be. Since the Engine Yard Cloud Dashboard would likely be
+open in another tab, we decided to demphasize and move the "Cloud Dashboard" link
+to the footer.
+
+![link organization]({{ site.baseurl}}/images/node-chat/5-header-footer-adjustment.png)
+
+### Step 5
+
+We thought about how someone would invite a friend to join the chat -
+basically, all they needed to do was share the URL with someone. So
+instead of an "Add Member" button and a distinct workflow following it, we made a text box with the current
+URL, and added an easy way to select the full path with a single click.
+
+![quick link]({{ site.baseurl}}/images/node-chat/give-link.jpg)
+
+### Reordering the right column
+
+We also swapped the order of content in the right column so that the
+link to invite friends is first and the list of chat members is second.
+
+![change order]({{ site.baseurl}}/images/node-chat/right-col-reorg.jpg)
+
+### Welcome message
+
+We replaced the default message with something more welcoming. It
+included a quick overview and instructions for how to use the app. The message fades away as soon
+as you post your first message.
+
+![welcome text]({{ site.baseurl}}/images/node-chat/welcome-message.jpg)
+
+### First interaction
+
+As soon as someone enters the chat, they are prompted to enter
+their display name in a small modal box.
+
+![modal prompt for name]({{ site.baseurl}}/images/node-chat/6-modal-name-prompt.png)
+
+# Final show
+
+Here's the user experience of the chat demo app when we launched Node.js support.
+
+### Welcome
+
+As soon as the user enters their name, they see the introduction message.
+
+![welcome screen]({{ site.baseurl}}/images/node-chat/7-welcome.png)
+
+### Chatting
+
+When they enter text in the chat box and press return, it moves into
+the chat transcript above.
+
+![chat box]({{ site.baseurl}}/images/node-chat/8-chat-box.png)
+
+When you invite someone to the chat by sharing the URL, they are also prompted for their
+name, and as expected, can chat with you.
+
+### Browser resizing
+
+We used CSS and JavaScript so that the height of the chat window would grow to fit the
+height of the screen and the chat transcript will grow and scoll over
+the window if it gets lengthy.
+
+Here's what it looks like on a 27" monitor.
+
+![tall monitor]({{ site.baseurl}}/images/node-chat/10-back-and-forth-27inch.png)
+
+### In conclusion
+
+So that's it — there are definitely
+things we could do to make this a better interface, but since its purpose is to demonstrate the
+responsiveness of Node.js, those details are not ultra important, and we
+had other things that needed our attention.
+
+It was interesting to see this small app's progress in baby steps and to notice where
+decisions and changes were made. I've been trying to make a habit of screen-capping changes for other apps to similarly document and share the design process.
+
