@@ -76,11 +76,9 @@ Add-ons had lengthy pricing details and complex integration instructions. Initia
 ### Step 3: Add-on activation
 **First attempt**
 
-On the Setup page (sketched here) there was a link back to the details page in the upper right.
+On the Setup page there was a link back to the details page in the upper right.
 
 Because of the numerous steps on this page we decided to break the setup into separate pages.
-
-![Add-ons view details](/images/add-ons/add-ons-details-step.jpg)
 
 ### Showing the steps
 
