@@ -10,6 +10,8 @@ short-description: A reusable component for selecting from a tree
 
 I created a new component to use for tree selection in Twitter ads.
 
+<img src="{{ site.baseurl}}/images/behavior-targeting/behavior-targeting.gif" alt="finishedproduct" width="1000">
+
 ### Problem
 
 Twitter Ads wanted to provide the ability for advertisers to target lists of people based on shopping behavior and demographic information. This type of data came from third party sources, and existing workflow for using it was extremenly complicated. 
@@ -70,3 +72,7 @@ As we planned to adding more partners, I shared several options for how this sel
 <img src="{{ site.baseurl}}/images/behavior-targeting/app-cat-2.png" alt="app cat targeting" width="800">
 
 <img src="{{ site.baseurl}}/images/behavior-targeting/app-cat-3.png" alt="app cat targeting" width="800">
+
+I also want to improve the interactions and empty states.
+
+<img src="{{ site.baseurl}}/images/behavior-targeting/future-plans.jpg" alt="Future plans" width="800">
