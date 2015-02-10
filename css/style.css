@@ -138,14 +138,12 @@ section article {
   display: block;
   margin-right: 2.35765%;
   width: 100%;
-  text-align: center;
-  padding-bottom: 40px; }
+  text-align: left;
+  padding: 0 4px 40px; }
   .post:last-child {
     margin-right: 0; }
   .post p {
-    width: 800px;
-    padding: 30px 0;
-    margin: 0 auto;
+    padding: 20px 0;
     font-size: 18px; }
     .post p img {
       padding: 16px;

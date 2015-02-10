@@ -5,7 +5,7 @@ date:   2014-04-16 23:15:42
 categories: design, coding
 thumbnail: images/css-in-angularjs/thumb-css-in-angular.jpg
 creation-date: 2014-04-16 23:15:42
-short-description: A talk I gave at TheMixin, a SF Sass meetup
+short-description: A talk I gave at The Mixin, a SF Sass meetup
 ---
 
 I gave this talk at a Sass meetup called The Mixin, in San Francisco, Thursday April 17th.

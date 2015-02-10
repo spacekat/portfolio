@@ -26,20 +26,47 @@ Provide a way for advertisers to target a list of people (provided by a partner)
 
 <span>1. Researched behavior targeting.</span>
 
-What patterns and terms are advertisers familiar with in this space? How do partners organize these lists? How many behaviors we going to show?
+What patterns and terms are advertisers familiar with in this space? How do partners organize these lists? How many behaviors we going to show? (A: hundreds!)
 
 <span>2. Evaluated our current UI patterns for tree selection.</span>
 
-Realizing our current UI's limitations, I sketched some possible solutions on the whiteboard.
+![Tree in a modal]({{ site.baseurl}}/images/behavior-targeting/existing-modal-tree.png)
+
+Realizing our current UI's limitations (only has 2 levels, when the lists are long there will be a lot of scrolling), I sketched some possible solutions on the whiteboard.
 
 <span>3. Prototyped a UI for deep tree selection.</span>
 
 Mocked up a click-through of static screens to show how the new selector would behave.
 
-<span>4. Discusses pro's and con's of different solutions with my team.</span>
+<img src="/images/behavior-targeting/tree-in-sheet-flow.jpg" alt="tree in a sheet" width="800">
 
-I didn't want to over-design this feature, and also didn't want to dismiss a solution that would require less engineering. 
+Due diligence: This is what our existing modal would look like filled with this large tree.
+
+![mocked up 3 level tree]({{ site.baseurl}}/images/behavior-targeting/selection-tree.png)
+
+<span>4. Discussed pro's and con's of different solutions with my team.</span>
+
+I didn't want to over-design this feature, and also didn't want to dismiss a solution that would require less engineering. So sharing them mockups of the tree-in-a-modal solution and also the tree-in-a-sheet solution, I outlined these pro's and con's.
+
+<img src="/images/behavior-targeting/prosandcons.png" alt="Pros and Cons" width="800">
 
 <span>5. Created and beta-tested the effectiveness of the solution.</span>
 
-<span>6. Identified ways to improve it and reuse the component.</span>
+Measured product adoption, gathered empirical feedback, and evaluated the performance of campaigns that used behavior targeting.
+
+<span>6. Identified ways to improve it and reuse the component, and also developed ongoing questions.</span>
+
+As we planned to adding more partners, I shared several options for how this selector could accomodate it.
+
+<img src="/images/behavior-targeting/possibility1.png" alt="possibility 1" width="800">
+<img src="/images/behavior-targeting/possibility2.png" alt="possibility 2" width="800">
+<img src="/images/behavior-targeting/possibility3.png" alt="possibility 3	" width="800">
+<img src="/images/behavior-targeting/adding-more-partners.png" alt="adding more partners" width="800">
+
+* One of the things I want to address is how do we encourage adoption for advertisers that are unfamiliar with this type of data?
+
+* My current project, installed app catgegory targeting, will use the same UI componet. Here are the mockups.
+
+<img src="/images/behavior-targeting/app-cat-2.png" alt="app cat targeting" width="800">
+
+<img src="/images/behavior-targeting/app-cat-3.png" alt="app cat targeting" width="800">

@@ -147,12 +147,10 @@ section {
 
 .post {
     @include span-columns(12);
-    text-align: center;
-    padding-bottom: 40px;
+    text-align: left;
+    padding: 0 4px 40px;
     p {
-        width: 800px;
-        padding: 30px 0;
-        margin: 0 auto;
+        padding: 20px 0;
         font-size: 18px;
         img {
             padding: 16px;
