@@ -8,7 +8,7 @@ creation-date: 2014-12-16 23:15:42
 short-description: A reusable component for selecting from a tree
 ---
 
-I created a new component to use for tree selection in Twitter ads.
+Designing a new component to use for tree selection in Twitter ads.
 
 <img src="{{ site.baseurl}}/images/behavior-targeting/behavior-targeting.gif" alt="finishedproduct" width="1000">
 
@@ -28,7 +28,7 @@ Provide a way for advertisers to target a list of people (provided by a partner)
 
 <span>1. Researched behavior targeting.</span>
 
-What patterns and terms are advertisers familiar with in this space? How do partners organize these lists? How many behaviors we going to show? (A: hundreds!)
+What patterns and terms are advertisers familiar with in this space? How do partners organize these lists? How many behaviors are we going to show? (A: hundreds!)
 
 <span>2. Evaluated our current UI patterns for tree selection.</span>
 
@@ -36,19 +36,21 @@ What patterns and terms are advertisers familiar with in this space? How do part
 
 Realizing our current UI's limitations (only has 2 levels, when the lists are long there will be a lot of scrolling), I sketched some possible solutions on the whiteboard.
 
+<img src="{{ site.baseurl}}/images/behavior-targeting/whiteboarding-behavior-targeting.jpg" alt="whiteboarding" width="600">
+
 <span>3. Prototyped a UI for deep tree selection.</span>
 
-Mocked up a click-through of static screens to show how the new selector would behave.
+I mocked up a click-through of static screens to show how the new selector would behave.
 
 <img src="{{ site.baseurl}}/images/behavior-targeting/tree-in-sheet-flow.jpg" alt="tree in a sheet" width="800">
 
-Due diligence: This is what our existing modal would look like filled with this large tree.
+Due diligence: For comparison, this is what our existing modal would look like filled with this large tree.
 
 ![mocked up 3 level tree]({{ site.baseurl}}/images/behavior-targeting/selection-tree.png)
 
 <span>4. Discussed pro's and con's of different solutions with my team.</span>
 
-I didn't want to over-design this feature, and also didn't want to dismiss a solution that would require less engineering. So sharing them mockups of the tree-in-a-modal solution and also the tree-in-a-sheet solution, I outlined these pro's and con's.
+I didn't want to over-design this feature, and also didn't want to dismiss a solution that would require less engineering. So sharing the mockups of the tree-in-a-modal solution and also the tree-in-a-sheet solution, I outlined these pro's and con's.
 
 <img src="{{ site.baseurl}}/images/behavior-targeting/prosandcons.png" alt="Pros and Cons" width="800">
 
@@ -58,21 +60,21 @@ Measured product adoption, gathered empirical feedback, and evaluated the perfor
 
 <span>6. Identified ways to improve it and reuse the component, and also developed ongoing questions.</span>
 
-As we planned to adding more partners, I shared several options for how this selector could accomodate it.
+As this feature grows and more partners are added, I considered several options for how this selector could scale.
 
 <img src="{{ site.baseurl}}/images/behavior-targeting/possibility1.png" alt="possibility 1" width="800">
 <img src="{{ site.baseurl}}/images/behavior-targeting/possibility2.png" alt="possibility 2" width="800">
 <img src="{{ site.baseurl}}/images/behavior-targeting/possibility3.png" alt="possibility 3	" width="800">
 <img src="{{ site.baseurl}}/images/behavior-targeting/adding-more-partners.png" alt="adding more partners" width="800">
 
-* One of the things I want to address is how do we encourage adoption for advertisers that are unfamiliar with this type of data?
+On going design challenges: I want to encourage adoption for advertisers that are unfamiliar with this type of data.
 
-* My current project, installed app catgegory targeting, will use the same UI componet. Here are the mockups.
+Reusability: My current project, installed app catgegory targeting, will use this same tree selector component. Here are the mockups.
 
 <img src="{{ site.baseurl}}/images/behavior-targeting/app-cat-2.png" alt="app cat targeting" width="800">
 
 <img src="{{ site.baseurl}}/images/behavior-targeting/app-cat-3.png" alt="app cat targeting" width="800">
 
-I also want to improve the interactions and empty states.
+Fine tuning: I  want to improve the interactions and empty states. Here are some plans to do so.
 
 <img src="{{ site.baseurl}}/images/behavior-targeting/future-plans.jpg" alt="Future plans" width="800">
