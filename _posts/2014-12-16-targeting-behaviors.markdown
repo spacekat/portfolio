@@ -75,6 +75,9 @@ Reusability: My current project, installed app catgegory targeting, will use thi
 
 <img src="{{ site.baseurl}}/images/behavior-targeting/app-cat-3.png" alt="app cat targeting" width="800">
 
-Fine tuning: I  want to improve the interactions and empty states. Here are some plans to do so.
+
+Fine tuning: I  want to improve the interactions and empty states. In planning to do so, I did some sketches, and then I started making a Sketch component so that other designers can use it in their mockups.
 
 <img src="{{ site.baseurl}}/images/behavior-targeting/future-plans.jpg" alt="Future plans" width="800">
+
+<img src="{{ site.baseurl}}/images/behavior-targeting/sketch-component.png" alt="Sketch component" width="800">

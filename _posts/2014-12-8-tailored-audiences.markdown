@@ -5,7 +5,7 @@ date:   2014-12-8 23:15:42
 categories: design
 thumbnail: images/twitter-ta-lists/thumb-ta.jpg
 creation-date: 2014-12-8 23:15:42
-short-description: Campaign targeting using advertisers own data
+short-description: A way that advertisers can target their own users
 ---
 
 One of the most effective ways for advertisers to run campaigns on Twitter is by using "tailored audiences".
