@@ -225,10 +225,7 @@ footer, .page-wrap:after {
     z-index: 5;
     opacity: 0; }
     .tile .tile-hover:hover {
-      opacity: 1;
-      -webkit-transition: opacity 0.4s ease;
-      -moz-transition: opacity 0.4s ease;
-      transition: opacity 0.4s ease; }
+      opacity: 1; }
     .tile .tile-hover .tile-top {
       height: 150px; }
       .tile .tile-hover .tile-top a {

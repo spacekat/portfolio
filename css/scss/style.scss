@@ -225,10 +225,8 @@ footer, .page-wrap:after {
         background-color: $darkopal-transparency;
         z-index: 5;
         opacity: 0;
-        //@include transition (opacity 1s ease);
         &:hover {
             opacity: 1;
-            @include transition (opacity .4s ease);
         }
         .tile-top {
             height: 150px;
