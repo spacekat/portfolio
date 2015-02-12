@@ -2,7 +2,7 @@
 layout: post
 title:  "CSS in AngularJS"
 date:   2014-04-16 23:15:42
-categories: design, coding
+categories: design coding
 thumbnail: images/css-in-angularjs/thumb-css-in-angular.jpg
 creation-date: 2014-04-16 23:15:42
 short-description: A talk I gave at The Mixin, a SF Sass meetup

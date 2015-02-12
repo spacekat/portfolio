@@ -2,7 +2,7 @@
 layout: post
 title:  "Manage Cron Jobs"
 date:   2014-03-02 23:15:42
-categories: design, coding
+categories: design coding
 thumbnail: images/crons/thumb-cron.jpg
 creation-date: 2014-03-02 23:15:42
 short-description: List and add cron jobs to clusters or servers

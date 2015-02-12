@@ -2,7 +2,7 @@
 layout: post
 title:  "Slide out panel"
 date:   2014-03-05 23:15:42
-categories: design, coding
+categories: design coding
 thumbnail: images/slide-out/thumb-slide.jpg
 creation-date: 2014-03-05 23:15:42
 short-description: Slide-out panel for managing server details
