@@ -2,7 +2,7 @@
 layout: post
 title:  "Feather"
 date:   2015-1-1 23:15:42
-categories: design, coding
+categories: coding
 thumbnail: images/feather/thumb-feather.jpg
 creation-date: 2015-1-1 23:15:42
 short-description: A library of sharable interface components and styleguide
@@ -10,7 +10,7 @@ short-description: A library of sharable interface components and styleguide
 
 Feather is a project that I am very passionate about.
 
-In my department, it may not fit in with my other feature-driven priorities, but it's something that I make time for because I'm so excited by it's impact on the quality work that we can deliver. Spearheaded by my amazing coworker [Ron](https://twitter.com/ronalddevera), and contributed to by a handful of other designers and front-end developers, it now has hundreds of internal consumers.
+In my department, it may not fit in with my other feature-driven priorities, but it's something that I make time for because I'm so excited by it's impact on the quality of work that we can deliver. Spearheaded by my amazing coworker [Ron](https://twitter.com/ronalddevera), and contributed to by a handful of other designers and front-end developers, it now has hundreds of internal consumers.
 
 <img src="{{ site.baseurl}}/images/feather/going-to-feather.gif" alt="visiting feather docs" width="1000">
 
